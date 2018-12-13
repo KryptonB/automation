@@ -12,7 +12,8 @@ longInterval = 40
 chromeDriverPath = 'C:\\Python27\\Custom_tools\\chromedriver.exe'
 
 # URL of the page
-gossipLURL = 'https://www.gossiplankanews.com/2018/12/steave-rixon-for-sri-lanka-cricket.html'
+gossipLURL = 'https://www.gossiplankanews.com/2018/12/final-decision.html'
+# gossipLURL = 'https://www.gossiplankanews.com/2018/12/steave-rixon-for-sri-lanka-cricket.html'
 # gossipLURL = 'https://www.gossiplankanews.com/2018/10/arjuna-dematagoda-update.html'
 
 # Comments vote up / vote down button XPaths list
@@ -20,6 +21,7 @@ commentXPaths = ['//*[@id="IDComment1067220387"]/div[1]/div/div/a[2]', '//*[@id=
 
 
 # Emoji icon XPaths
+kujeethaiIconXPath = '//*[@id="Blog1"]/div[3]/div/div[1]/div[2]/div[6]/div/div[1]/img'
 supiriIconXPath = '//*[@id="Blog1"]/div[3]/div/div[1]/div[2]/div[1]/div/div[1]/img'
 
 
@@ -48,14 +50,14 @@ def commentBot():
         browser.quit()
 
 # Function to click on the selected emoji      
-def emojiBot():
+def emojiBot(icon):
     while True:
         browser = webdriver.Chrome(chromeDriverPath)
         browser.get(gossipLURL)
         time.sleep(mediumInterval)
         
-        supiriIcon = browser.find_element_by_xpath(supiriIconXPath)
-        supiriIcon.click()
+        myIcon = browser.find_element_by_xpath(icon)
+        myIcon.click()
         time.sleep(shortInterval)
         
         browser.quit()
@@ -63,4 +65,4 @@ def emojiBot():
 
 #commentBot()
 
-emojiBot()
+emojiBot(kujeethaiIconXPath)
