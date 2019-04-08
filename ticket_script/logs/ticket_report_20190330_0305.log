@@ -1,0 +1,1872 @@
+[2019-03-30 03:05:27,821] INFO (ticket_script.py: 166) Username / Password extracted successfully
+[2019-03-30 03:05:40,341] INFO (ticket_script.py: 214) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-30 03:05:40,341] INFO (ticket_script.py: 215) Artologik URL: https://fss.virtusa.com
+[2019-03-30 03:05:45,572] INFO (ticket_script.py: 230) Username box found
+[2019-03-30 03:05:46,734] INFO (ticket_script.py: 238) Password box found
+[2019-03-30 03:05:56,857] INFO (ticket_script.py: 243) Login button found
+[2019-03-30 03:06:16,907] INFO (ticket_script.py: 251) Switched to left navigation menu
+[2019-03-30 03:06:21,400] INFO (ticket_script.py: 256) Tickets button found and clicked!
+[2019-03-30 03:06:41,480] INFO (ticket_script.py: 266) Switched to top pane
+[2019-03-30 03:06:41,536] INFO (ticket_script.py: 271) Switched to dropdown list pane
+[2019-03-30 03:06:46,798] INFO (ticket_script.py: 278) Dropdown list found and clicked!
+[2019-03-30 03:06:50,674] INFO (ticket_script.py: 283) All New and Current Tickets option from the list is found and clicked!
+[2019-03-30 03:07:10,957] INFO (ticket_script.py: 297) Switched to tickets pane
+[2019-03-30 03:07:30,983] INFO (ticket_script.py: 310) Reading ticket details...
+[2019-03-30 03:07:30,983] INFO (ticket_script.py: 328) There are no Delegated tickets
+[2019-03-30 03:07:31,005] INFO (ticket_script.py: 310) Reading ticket details...
+[2019-03-30 03:07:31,234] INFO (ticket_script.py: 451) Ticket number: 20190314:021
+[2019-03-30 03:07:31,250] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:31,263] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:31,288] INFO (ticket_script.py: 454) Ticket title: Queues
+[2019-03-30 03:07:31,319] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Meltveit, Rolf Arild
+[2019-03-30 03:07:31,339] INFO (ticket_script.py: 456) Priority: Low
+[2019-03-30 03:07:31,381] INFO (ticket_script.py: 457) Assigned to: Reopened
+Open
+[2019-03-30 03:07:31,545] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:31,545] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:31,726] INFO (ticket_script.py: 451) Ticket number: 20181017:008
+[2019-03-30 03:07:31,742] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:31,757] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:31,788] INFO (ticket_script.py: 454) Ticket title: Automatiserade utskick av affärsbekräfte
+[2019-03-30 03:07:31,815] INFO (ticket_script.py: 455) Registered for: Husqvarna
+Högberg, Sara
+[2019-03-30 03:07:31,831] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:31,852] INFO (ticket_script.py: 457) Assigned to: Reopened
+Open
+[2019-03-30 03:07:32,056] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:32,056] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:32,056] INFO (ticket_script.py: 503) Data writing completed for Reopened tickets
+[2019-03-30 03:07:32,059] INFO (ticket_script.py: 323) 2 Reopened tickets found
+[2019-03-30 03:07:32,105] INFO (ticket_script.py: 310) Reading ticket details...
+[2019-03-30 03:07:32,349] INFO (ticket_script.py: 451) Ticket number: 20190325:016
+[2019-03-30 03:07:32,367] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:32,384] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:07:32,417] INFO (ticket_script.py: 454) Ticket title: Copy prices into TEST/NEW
+[2019-03-30 03:07:32,444] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Broryd, Martin
+[2019-03-30 03:07:32,457] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:32,476] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:32,592] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:32,592] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:32,753] INFO (ticket_script.py: 451) Ticket number: 20190315:018
+[2019-03-30 03:07:32,767] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:32,779] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:32,799] INFO (ticket_script.py: 454) Ticket title: Prodsättning CS-CSD-TRM-CrossFXRateRepor
+[2019-03-30 03:07:32,821] INFO (ticket_script.py: 455) Registered for: Skanska Financial Services AB
+Smeds, Håkan
+[2019-03-30 03:07:32,836] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:32,851] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bäfverfeldt, Michael
+[2019-03-30 03:07:33,020] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:33,020] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:33,154] INFO (ticket_script.py: 451) Ticket number: 20190315:003
+[2019-03-30 03:07:33,233] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:33,286] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:33,319] INFO (ticket_script.py: 454) Ticket title: SBAB - Tag ner ACC miljön sista bankdage
+[2019-03-30 03:07:33,348] INFO (ticket_script.py: 455) Registered for: SBAB
+Surveillance, SBAB
+[2019-03-30 03:07:33,365] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:33,382] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:33,509] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:33,509] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:33,657] INFO (ticket_script.py: 451) Ticket number: 20190312:015
+[2019-03-30 03:07:33,667] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:33,681] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:33,713] INFO (ticket_script.py: 454) Ticket title: Data Import via queue
+[2019-03-30 03:07:33,736] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Gibson, Mathias
+[2019-03-30 03:07:33,747] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:33,760] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:33,875] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:33,875] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:33,986] INFO (ticket_script.py: 451) Ticket number: 20190308:020
+[2019-03-30 03:07:33,996] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:34,006] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:34,023] INFO (ticket_script.py: 454) Ticket title: Interface Payment OCM Export
+[2019-03-30 03:07:34,042] INFO (ticket_script.py: 455) Registered for: Volvo Treasury AB
+Surveillance, Volvo
+[2019-03-30 03:07:34,052] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:34,068] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:34,161] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:34,161] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:34,355] INFO (ticket_script.py: 451) Ticket number: 20190307:009
+[2019-03-30 03:07:34,371] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:34,392] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:34,431] INFO (ticket_script.py: 454) Ticket title: FW: MTI Storage Migration to New Storage
+[2019-03-30 03:07:34,502] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-30 03:07:34,578] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:34,611] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:34,792] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:34,792] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:34,944] INFO (ticket_script.py: 451) Ticket number: 20190305:011
+[2019-03-30 03:07:34,954] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:34,967] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:34,990] INFO (ticket_script.py: 454) Ticket title: SCD Prod: DB copy to Test
+[2019-03-30 03:07:35,013] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:07:35,023] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:35,036] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:35,295] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:35,295] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:35,473] INFO (ticket_script.py: 451) Ticket number: 20190305:010
+[2019-03-30 03:07:35,486] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:35,499] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:35,523] INFO (ticket_script.py: 454) Ticket title: SCD Test: DB copy to All-in
+[2019-03-30 03:07:35,546] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:07:35,558] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:35,572] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:35,701] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:35,701] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:35,884] INFO (ticket_script.py: 451) Ticket number: 20190305:008
+[2019-03-30 03:07:35,892] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:35,904] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:35,921] INFO (ticket_script.py: 454) Ticket title: Ny FIX-koppling och vad som behöver vara
+[2019-03-30 03:07:35,937] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:07:35,950] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:35,963] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Lehto, Martin
+[2019-03-30 03:07:36,052] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:36,052] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:36,177] INFO (ticket_script.py: 451) Ticket number: 20190304:013
+[2019-03-30 03:07:36,187] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:36,198] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:36,216] INFO (ticket_script.py: 454) Ticket title: Beställning: SCD DB copy
+[2019-03-30 03:07:36,240] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:07:36,250] INFO (ticket_script.py: 456) Priority: High
+[2019-03-30 03:07:36,263] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:36,368] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:36,368] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:36,483] INFO (ticket_script.py: 451) Ticket number: 20190228:019
+[2019-03-30 03:07:36,493] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:36,503] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:07:36,519] INFO (ticket_script.py: 454) Ticket title: IRF Closing
+[2019-03-30 03:07:36,536] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Zaliscevskyte, Monika
+[2019-03-30 03:07:36,548] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:36,559] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Lerner, Linus
+[2019-03-30 03:07:36,651] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:36,651] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:36,901] INFO (ticket_script.py: 451) Ticket number: 20190218:043
+[2019-03-30 03:07:36,921] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:36,943] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:07:36,966] INFO (ticket_script.py: 454) Ticket title: CLS-files missing data
+[2019-03-30 03:07:36,990] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Strinnholm, Christina
+[2019-03-30 03:07:37,003] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:37,017] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:37,125] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:37,127] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:37,262] INFO (ticket_script.py: 451) Ticket number: 20190212:012
+[2019-03-30 03:07:37,272] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:37,283] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:37,302] INFO (ticket_script.py: 454) Ticket title: Ny schedulering av BJG
+[2019-03-30 03:07:37,321] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Berglund, Mathias
+[2019-03-30 03:07:37,332] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:37,344] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Knorn, Jonathan
+[2019-03-30 03:07:37,438] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:37,438] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:37,584] INFO (ticket_script.py: 451) Ticket number: 20190205:027
+[2019-03-30 03:07:37,598] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:37,611] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:37,634] INFO (ticket_script.py: 454) Ticket title: WSS Issues - BRR daily and closing inter
+[2019-03-30 03:07:37,655] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:37,671] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:37,684] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Hovelius, Mats
+[2019-03-30 03:07:37,841] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:37,841] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:38,059] INFO (ticket_script.py: 451) Ticket number: 20190205:025
+[2019-03-30 03:07:38,072] INFO (ticket_script.py: 452) Object/Area: ERM2
+[2019-03-30 03:07:38,086] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:38,115] INFO (ticket_script.py: 454) Ticket title: ERMSAP phased roll out in NA - how to cl
+[2019-03-30 03:07:38,138] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Surveillance, Electrolux
+[2019-03-30 03:07:38,154] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:38,173] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bäfverfeldt, Michael
+[2019-03-30 03:07:38,322] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:38,322] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:38,519] INFO (ticket_script.py: 451) Ticket number: 20190131:008
+[2019-03-30 03:07:38,538] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:38,556] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:38,581] INFO (ticket_script.py: 454) Ticket title: RTNS
+[2019-03-30 03:07:38,605] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Lourie, Tomas
+[2019-03-30 03:07:38,618] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:38,640] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:38,786] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:38,786] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:38,937] INFO (ticket_script.py: 451) Ticket number: 20190130:007
+[2019-03-30 03:07:38,966] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:38,989] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:39,019] INFO (ticket_script.py: 454) Ticket title: FW: CC05147969 - File delivery to ICE us
+[2019-03-30 03:07:39,043] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Lehto Robur, Martin
+[2019-03-30 03:07:39,059] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:39,085] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Lehto, Martin
+[2019-03-30 03:07:39,233] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:39,233] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:39,369] INFO (ticket_script.py: 451) Ticket number: 20190129:001
+[2019-03-30 03:07:39,385] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:39,401] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:07:39,418] INFO (ticket_script.py: 454) Ticket title: FW: ES EMA hedges not being created
+[2019-03-30 03:07:39,438] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:39,450] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:39,464] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:39,644] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:39,644] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:39,775] INFO (ticket_script.py: 451) Ticket number: 20190128:016
+[2019-03-30 03:07:39,792] INFO (ticket_script.py: 452) Object/Area: ERM2
+[2019-03-30 03:07:39,806] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:39,828] INFO (ticket_script.py: 454) Ticket title: Electrolux - Quaterly WBML & GCDP update
+[2019-03-30 03:07:39,852] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Surveillance, Electrolux
+[2019-03-30 03:07:39,865] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:39,878] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bäfverfeldt, Michael
+[2019-03-30 03:07:39,986] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:39,986] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:40,157] INFO (ticket_script.py: 451) Ticket number: 20190124:013
+[2019-03-30 03:07:40,184] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:40,204] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:40,240] INFO (ticket_script.py: 454) Ticket title: Brazilian instrument into WSS project
+[2019-03-30 03:07:40,259] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:40,269] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:40,283] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+van Niekerk, Andries
+[2019-03-30 03:07:40,403] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:40,404] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:40,608] INFO (ticket_script.py: 451) Ticket number: 20190121:025
+[2019-03-30 03:07:40,625] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:40,642] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:40,674] INFO (ticket_script.py: 454) Ticket title: Missing Bank Statements
+[2019-03-30 03:07:40,704] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:40,726] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:40,753] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:40,953] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:40,953] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:41,180] INFO (ticket_script.py: 451) Ticket number: 20190117:007
+[2019-03-30 03:07:41,207] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:41,233] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:41,282] INFO (ticket_script.py: 454) Ticket title: FIN-256 MIFIR update 18 FEB
+[2019-03-30 03:07:41,355] INFO (ticket_script.py: 455) Registered for: SBAB
+Hallstrom, Victor
+[2019-03-30 03:07:41,381] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:41,414] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:42,002] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:42,002] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:42,174] INFO (ticket_script.py: 451) Ticket number: 20190117:004
+[2019-03-30 03:07:42,186] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:42,198] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:42,217] INFO (ticket_script.py: 454) Ticket title: Missing Market values for Webconfirmatio
+[2019-03-30 03:07:42,239] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:42,250] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:42,263] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:42,401] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:42,401] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:42,529] INFO (ticket_script.py: 451) Ticket number: 20190114:026
+[2019-03-30 03:07:42,539] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:42,549] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:42,569] INFO (ticket_script.py: 454) Ticket title: FX All Activity
+[2019-03-30 03:07:42,586] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:42,598] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:42,611] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:42,709] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:42,709] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:42,829] INFO (ticket_script.py: 451) Ticket number: 20190108:015
+[2019-03-30 03:07:42,842] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:42,855] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:42,888] INFO (ticket_script.py: 454) Ticket title: Update of Swift payments
+[2019-03-30 03:07:42,907] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:42,917] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:42,930] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Pathum Ratnayake, Ruwanjith
+[2019-03-30 03:07:43,029] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:43,030] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:43,158] INFO (ticket_script.py: 451) Ticket number: 20190108:012
+[2019-03-30 03:07:43,174] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:43,522] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:43,549] INFO (ticket_script.py: 454) Ticket title: Webconfirmation EoY *20181219:003*
+[2019-03-30 03:07:43,572] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:43,588] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:43,605] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:43,740] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:43,740] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:43,903] INFO (ticket_script.py: 451) Ticket number: 20181219:035
+[2019-03-30 03:07:43,915] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:43,931] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:43,971] INFO (ticket_script.py: 454) Ticket title: Webconfirmation och transaktioner i Erro
+[2019-03-30 03:07:43,993] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Bergvall, Jenny
+[2019-03-30 03:07:44,009] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:44,025] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:44,150] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:44,150] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:44,313] INFO (ticket_script.py: 451) Ticket number: 20181204:030
+[2019-03-30 03:07:44,328] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:44,342] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:44,361] INFO (ticket_script.py: 454) Ticket title: Incorrect OM fee created for FRA
+[2019-03-30 03:07:44,381] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Robur, BO Trading Derivat
+[2019-03-30 03:07:44,395] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:44,411] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Lerner, Linus
+[2019-03-30 03:07:44,549] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:44,549] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:44,724] INFO (ticket_script.py: 451) Ticket number: 20181127:031
+[2019-03-30 03:07:44,736] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:44,747] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:44,766] INFO (ticket_script.py: 454) Ticket title: Important issue about the margins. Pleas
+[2019-03-30 03:07:44,785] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:44,796] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:44,813] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+van Niekerk, Andries
+[2019-03-30 03:07:44,930] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:44,930] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:45,059] INFO (ticket_script.py: 451) Ticket number: 20181031:021
+[2019-03-30 03:07:45,071] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:45,082] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:45,105] INFO (ticket_script.py: 454) Ticket title: Connectivity of Server : emftacc.ericsso
+[2019-03-30 03:07:45,121] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Chimakurthi, Neerada
+[2019-03-30 03:07:45,135] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:45,151] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:45,253] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:45,253] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:45,378] INFO (ticket_script.py: 451) Ticket number: 20181031:013
+[2019-03-30 03:07:45,391] INFO (ticket_script.py: 452) Object/Area: ERM2
+[2019-03-30 03:07:45,405] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:45,424] INFO (ticket_script.py: 454) Ticket title: D&B WBML and GCDP Batch request files -
+[2019-03-30 03:07:45,444] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Hagen, Ann
+[2019-03-30 03:07:45,459] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:45,492] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bäfverfeldt, Michael
+[2019-03-30 03:07:45,609] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:45,609] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:45,737] INFO (ticket_script.py: 451) Ticket number: 20181024:015
+[2019-03-30 03:07:45,752] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:45,766] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:45,786] INFO (ticket_script.py: 454) Ticket title: RE: TLS Settings change - Need your atte
+[2019-03-30 03:07:45,809] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Chimakurthi, Neerada
+[2019-03-30 03:07:45,825] INFO (ticket_script.py: 456) Priority: High
+[2019-03-30 03:07:45,841] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:45,959] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:45,959] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:46,086] INFO (ticket_script.py: 451) Ticket number: 20181022:021
+[2019-03-30 03:07:46,101] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:46,115] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:46,132] INFO (ticket_script.py: 454) Ticket title: Add valuation modes
+[2019-03-30 03:07:46,151] INFO (ticket_script.py: 455) Registered for: Volvo Treasury AB
+Operation group, Finance KIT
+[2019-03-30 03:07:46,164] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:46,176] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:46,279] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:46,279] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:46,401] INFO (ticket_script.py: 451) Ticket number: 20181016:021
+[2019-03-30 03:07:46,414] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:46,424] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:46,444] INFO (ticket_script.py: 454) Ticket title: Brazil setup - Tax figures in a periodic
+[2019-03-30 03:07:46,464] INFO (ticket_script.py: 455) Registered for: Volvo Treasury AB
+Surveillance, Volvo
+[2019-03-30 03:07:46,477] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:46,493] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+van Niekerk, Andries
+[2019-03-30 03:07:46,608] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:46,608] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:46,726] INFO (ticket_script.py: 451) Ticket number: 20181015:017
+[2019-03-30 03:07:46,737] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:46,753] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:46,773] INFO (ticket_script.py: 454) Ticket title: Inloggningsproblem Test2
+[2019-03-30 03:07:46,790] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Lourie, Tomas
+[2019-03-30 03:07:46,802] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:46,815] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:46,927] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:46,927] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:47,059] INFO (ticket_script.py: 451) Ticket number: 20181015:010
+[2019-03-30 03:07:47,072] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:47,084] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:47,101] INFO (ticket_script.py: 454) Ticket title: PROD inloggningsproblem
+[2019-03-30 03:07:47,118] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Carlsson, Sven
+[2019-03-30 03:07:47,137] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:47,151] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:47,263] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:47,263] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:47,397] INFO (ticket_script.py: 451) Ticket number: 20180926:014
+[2019-03-30 03:07:47,410] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:47,424] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:47,451] INFO (ticket_script.py: 454) Ticket title: Closing Date Transaktioner i UTV
+[2019-03-30 03:07:47,473] INFO (ticket_script.py: 455) Registered for: SBAB
+Olofsson, Eva
+[2019-03-30 03:07:47,487] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:47,503] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:47,631] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:47,631] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:47,757] INFO (ticket_script.py: 451) Ticket number: 20180906:017
+[2019-03-30 03:07:47,769] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:47,782] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:47,799] INFO (ticket_script.py: 454) Ticket title: Matching rule tag 56A not taken into acc
+[2019-03-30 03:07:47,816] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:07:47,832] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:47,846] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Hacker, Magnus
+[2019-03-30 03:07:47,986] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:47,986] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:48,163] INFO (ticket_script.py: 451) Ticket number: 20180903:017
+[2019-03-30 03:07:48,176] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:48,188] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:48,216] INFO (ticket_script.py: 454) Ticket title: Service-Now Incident and Change request
+[2019-03-30 03:07:48,240] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:07:48,253] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:48,266] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:48,369] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:48,371] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:48,487] INFO (ticket_script.py: 451) Ticket number: 20180827:036
+[2019-03-30 03:07:48,500] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:48,513] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:48,539] INFO (ticket_script.py: 454) Ticket title: FIN-304 Oracle PROD service patches
+[2019-03-30 03:07:48,558] INFO (ticket_script.py: 455) Registered for: SBAB
+Hallstrom, Victor
+[2019-03-30 03:07:48,572] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:48,625] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:48,732] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:48,733] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:48,868] INFO (ticket_script.py: 451) Ticket number: 20180801:018
+[2019-03-30 03:07:48,880] INFO (ticket_script.py: 452) Object/Area: ERM2
+[2019-03-30 03:07:48,891] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:48,908] INFO (ticket_script.py: 454) Ticket title: Electrolux - Quaterly WBML & GCDP update
+[2019-03-30 03:07:48,928] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Surveillance, Electrolux
+[2019-03-30 03:07:48,940] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:48,951] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Bäfverfeldt, Michael
+[2019-03-30 03:07:49,081] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:49,081] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:49,203] INFO (ticket_script.py: 451) Ticket number: 20180517:010
+[2019-03-30 03:07:49,214] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:49,226] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:49,246] INFO (ticket_script.py: 454) Ticket title: FIN-295 - Problem med FX resultat upfron
+[2019-03-30 03:07:49,266] INFO (ticket_script.py: 455) Registered for: SBAB
+Enlund, Sofie
+[2019-03-30 03:07:49,279] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:49,293] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:49,408] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:49,408] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:49,552] INFO (ticket_script.py: 451) Ticket number: 20180219:036
+[2019-03-30 03:07:49,565] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:49,576] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:49,595] INFO (ticket_script.py: 454) Ticket title: Split IMPORT-EXPOURES-SAP into two
+[2019-03-30 03:07:49,618] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Lourie, Tomas
+[2019-03-30 03:07:49,630] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:49,644] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Antony, Anand
+[2019-03-30 03:07:49,752] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:49,752] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:49,907] INFO (ticket_script.py: 451) Ticket number: 20171122:018
+[2019-03-30 03:07:49,927] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:49,947] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:49,970] INFO (ticket_script.py: 454) Ticket title: Disable or clear PROD data when loading
+[2019-03-30 03:07:50,000] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-30 03:07:50,013] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:50,032] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:50,233] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:50,233] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:50,411] INFO (ticket_script.py: 451) Ticket number: 20170928:010
+[2019-03-30 03:07:50,426] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:50,440] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:07:50,463] INFO (ticket_script.py: 454) Ticket title: performance problem data cleanup
+[2019-03-30 03:07:50,484] INFO (ticket_script.py: 455) Registered for: SBAB
+Enlund, Sofie
+[2019-03-30 03:07:50,500] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:50,516] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:50,670] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:50,670] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:50,815] INFO (ticket_script.py: 451) Ticket number: 20170919:027
+[2019-03-30 03:07:50,828] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:50,839] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:50,858] INFO (ticket_script.py: 454) Ticket title: 67723 - FXGO i Bloomberg
+[2019-03-30 03:07:50,877] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Malm, Jonas
+[2019-03-30 03:07:50,891] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:50,904] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:51,010] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:51,010] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:51,150] INFO (ticket_script.py: 451) Ticket number: 20170504:025
+[2019-03-30 03:07:51,163] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:51,174] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:51,193] INFO (ticket_script.py: 454) Ticket title: Call Account / Payment date
+[2019-03-30 03:07:51,213] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:07:51,226] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:51,243] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Antony, Anand
+[2019-03-30 03:07:51,351] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:51,351] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:51,494] INFO (ticket_script.py: 451) Ticket number: 20161026:004
+[2019-03-30 03:07:51,507] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:51,520] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:07:51,540] INFO (ticket_script.py: 454) Ticket title: Trade date accounting / bond issues
+[2019-03-30 03:07:51,561] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:07:51,581] INFO (ticket_script.py: 456) Priority: Low
+[2019-03-30 03:07:51,595] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Antony, Anand
+[2019-03-30 03:07:51,710] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:51,710] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:51,836] INFO (ticket_script.py: 451) Ticket number: 20161006:015
+[2019-03-30 03:07:51,851] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:07:51,867] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:51,888] INFO (ticket_script.py: 454) Ticket title: Installation of new VaR Calculate
+[2019-03-30 03:07:51,908] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Lourie, Tomas
+[2019-03-30 03:07:51,924] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:51,940] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:52,082] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:52,084] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:52,223] INFO (ticket_script.py: 451) Ticket number: 20160128:010
+[2019-03-30 03:07:52,237] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:52,252] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:52,273] INFO (ticket_script.py: 454) Ticket title: Collateral account / incorrect accrued i
+[2019-03-30 03:07:52,298] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:07:52,312] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:52,328] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Antony, Anand
+[2019-03-30 03:07:52,466] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:52,466] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:52,617] INFO (ticket_script.py: 451) Ticket number: 20151126:019
+[2019-03-30 03:07:52,631] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:52,650] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:52,674] INFO (ticket_script.py: 454) Ticket title: Question regarding bond instrument cash
+[2019-03-30 03:07:52,693] INFO (ticket_script.py: 455) Registered for: FMO
+Kim, Jungsu
+[2019-03-30 03:07:52,706] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:52,720] INFO (ticket_script.py: 457) Assigned to: Pending Take over
+Antony, Anand
+[2019-03-30 03:07:52,832] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:52,832] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:52,832] INFO (ticket_script.py: 503) Data writing completed for Pending tickets
+[2019-03-30 03:07:52,832] INFO (ticket_script.py: 323) 51 Pending tickets found
+[2019-03-30 03:07:52,868] INFO (ticket_script.py: 310) Reading ticket details...
+[2019-03-30 03:07:52,997] INFO (ticket_script.py: 451) Ticket number: 20190329:019
+[2019-03-30 03:07:53,010] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:53,023] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:53,043] INFO (ticket_script.py: 454) Ticket title: JPM DCM Product Update | Reporting Enhan
+[2019-03-30 03:07:53,063] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Pušciute, Viktorija
+[2019-03-30 03:07:53,075] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:53,105] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Melamed, Daniel
+[2019-03-30 03:07:53,210] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:53,210] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:53,358] INFO (ticket_script.py: 451) Ticket number: 20190329:016
+[2019-03-30 03:07:53,374] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:53,388] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:07:53,410] INFO (ticket_script.py: 454) Ticket title: New ins file to PROD and NEW - Asset Man
+[2019-03-30 03:07:53,430] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Todnem, Trond
+[2019-03-30 03:07:53,443] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:53,457] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Blad, Fred
+[2019-03-30 03:07:53,559] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:53,559] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:53,711] INFO (ticket_script.py: 451) Ticket number: 20190329:014
+[2019-03-30 03:07:53,723] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:53,737] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:53,756] INFO (ticket_script.py: 454) Ticket title: Likvidfilen
+[2019-03-30 03:07:53,776] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Celinder, Joakim
+[2019-03-30 03:07:53,789] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:53,805] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:07:53,917] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:53,917] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:54,065] INFO (ticket_script.py: 451) Ticket number: 20190329:013
+[2019-03-30 03:07:54,085] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:54,118] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:54,140] INFO (ticket_script.py: 454) Ticket title: Regarding Transaction Status - Collatera
+[2019-03-30 03:07:54,161] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Zemgulyte, Sandra
+[2019-03-30 03:07:54,176] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:54,191] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lerner, Linus
+[2019-03-30 03:07:54,292] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:54,292] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:54,428] INFO (ticket_script.py: 451) Ticket number: 20190329:012
+[2019-03-30 03:07:54,444] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:54,464] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:54,490] INFO (ticket_script.py: 454) Ticket title: TRR ETD RTS pool Trade UTI change via TE
+[2019-03-30 03:07:54,522] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Robur, BO Trading Derivat
+[2019-03-30 03:07:54,538] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:54,553] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:07:54,713] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:54,713] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:54,852] INFO (ticket_script.py: 451) Ticket number: 20190329:011
+[2019-03-30 03:07:54,868] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:54,882] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:54,904] INFO (ticket_script.py: 454) Ticket title: URGENT - regarding not downloaded files
+[2019-03-30 03:07:54,924] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Robur, BO Trading Derivat
+[2019-03-30 03:07:54,937] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:54,953] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:07:55,053] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:55,053] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:55,210] INFO (ticket_script.py: 451) Ticket number: 20190329:007
+[2019-03-30 03:07:55,224] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:55,239] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:55,259] INFO (ticket_script.py: 454) Ticket title: URGENT! Corona was has not been created
+[2019-03-30 03:07:55,279] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Meskauskas, Edvinas
+[2019-03-30 03:07:55,293] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:55,309] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:07:55,413] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:55,413] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:55,549] INFO (ticket_script.py: 451) Ticket number: 20190329:006
+[2019-03-30 03:07:55,563] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:55,579] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:55,601] INFO (ticket_script.py: 454) Ticket title: error in batch job " KÅR IMP ARCHIVE"
+[2019-03-30 03:07:55,628] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Maintenance, Portfolio
+[2019-03-30 03:07:55,644] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:55,657] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:07:55,769] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:55,769] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:55,940] INFO (ticket_script.py: 451) Ticket number: 20190328:021
+[2019-03-30 03:07:55,966] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:55,984] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:56,009] INFO (ticket_script.py: 454) Ticket title: Action Required: Reconnection of your Tr
+[2019-03-30 03:07:56,036] INFO (ticket_script.py: 455) Registered for: SAS Group Finance & Asset Management
+360T, CAS
+[2019-03-30 03:07:56,055] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:56,075] INFO (ticket_script.py: 457) Assigned to: Opened Return
+Ratnappuli, Shamal
+[2019-03-30 03:07:56,211] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:56,211] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:56,400] INFO (ticket_script.py: 451) Ticket number: 20190328:019
+[2019-03-30 03:07:56,417] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:56,434] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:56,459] INFO (ticket_script.py: 454) Ticket title: Accounting Mapping Rules / account 26060
+[2019-03-30 03:07:56,483] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:07:56,503] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:56,519] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:07:56,654] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:56,654] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:56,887] INFO (ticket_script.py: 451) Ticket number: 20190328:022
+[2019-03-30 03:07:56,914] INFO (ticket_script.py: 452) Object/Area: BankDB
+[2019-03-30 03:07:56,933] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:56,956] INFO (ticket_script.py: 454) Ticket title: Problem med rapport i eBAM Prod
+[2019-03-30 03:07:56,977] INFO (ticket_script.py: 455) Registered for: Skanska Financial Services AB
+Smeds, Håkan
+[2019-03-30 03:07:56,993] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:57,006] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Händel, Klas
+[2019-03-30 03:07:57,101] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:57,101] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:57,252] INFO (ticket_script.py: 451) Ticket number: 20190328:017
+[2019-03-30 03:07:57,273] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:57,289] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:57,312] INFO (ticket_script.py: 454) Ticket title: EXCEPTION (The FIA import error director
+[2019-03-30 03:07:57,332] INFO (ticket_script.py: 455) Registered for: FMO
+Surveillance, FMO
+[2019-03-30 03:07:57,348] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:57,365] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:07:57,476] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:57,476] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:57,618] INFO (ticket_script.py: 451) Ticket number: 20190328:009
+[2019-03-30 03:07:57,632] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:57,663] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:57,683] INFO (ticket_script.py: 454) Ticket title: File side are imported to SCD with wrong
+[2019-03-30 03:07:57,706] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Back Office, Controlling
+[2019-03-30 03:07:57,720] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:57,739] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Melamed, Daniel
+[2019-03-30 03:07:57,842] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:57,842] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:57,986] INFO (ticket_script.py: 451) Ticket number: 20190327:016
+[2019-03-30 03:07:58,005] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:58,020] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:07:58,042] INFO (ticket_script.py: 454) Ticket title: Regarding JPM files to be sent STP
+[2019-03-30 03:07:58,068] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:07:58,084] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:58,101] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Bernehammar, Thomas
+[2019-03-30 03:07:58,239] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:58,240] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:58,407] INFO (ticket_script.py: 451) Ticket number: 20190327:013
+[2019-03-30 03:07:58,424] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:58,447] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:58,477] INFO (ticket_script.py: 454) Ticket title: Problems with SimDim Asset Manager
+[2019-03-30 03:07:58,506] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Söderstrom, Johan
+[2019-03-30 03:07:58,535] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:58,561] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:07:58,694] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:58,694] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:58,854] INFO (ticket_script.py: 451) Ticket number: 20190327:011
+[2019-03-30 03:07:58,868] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:58,884] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:58,904] INFO (ticket_script.py: 454) Ticket title: SCTASK0105240 - Överföring från Robur ti
+[2019-03-30 03:07:58,926] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:07:58,941] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:58,957] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lehto, Martin
+[2019-03-30 03:07:59,075] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:59,075] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:59,256] INFO (ticket_script.py: 451) Ticket number: 20190326:012
+[2019-03-30 03:07:59,272] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:07:59,286] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:07:59,309] INFO (ticket_script.py: 454) Ticket title: Boc fond i fond recon rounding problem
+[2019-03-30 03:07:59,336] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Back Office, Controlling
+[2019-03-30 03:07:59,355] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:59,371] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Melamed, Daniel
+[2019-03-30 03:07:59,483] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:59,483] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:07:59,644] INFO (ticket_script.py: 451) Ticket number: 20190325:025
+[2019-03-30 03:07:59,663] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:07:59,687] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:07:59,713] INFO (ticket_script.py: 454) Ticket title: Client Renaming Tool
+[2019-03-30 03:07:59,734] INFO (ticket_script.py: 455) Registered for: SBAB
+Eriksson, Johanna
+[2019-03-30 03:07:59,750] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:07:59,767] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:07:59,904] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:07:59,904] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:00,119] INFO (ticket_script.py: 451) Ticket number: 20190327:015
+[2019-03-30 03:08:00,138] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:00,157] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:00,207] INFO (ticket_script.py: 454) Ticket title: EDI Communication (SFTP) : Request for u
+[2019-03-30 03:08:00,239] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Support, SI
+[2019-03-30 03:08:00,255] INFO (ticket_script.py: 456) Priority: Low
+[2019-03-30 03:08:00,273] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Bernehammar, Thomas
+[2019-03-30 03:08:00,423] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:00,424] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:00,608] INFO (ticket_script.py: 451) Ticket number: 20190325:019
+[2019-03-30 03:08:00,624] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:00,641] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:00,670] INFO (ticket_script.py: 454) Ticket title: FXall failed again
+[2019-03-30 03:08:00,720] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:08:00,737] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:00,765] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Bernehammar, Thomas
+[2019-03-30 03:08:00,907] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:00,907] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:01,072] INFO (ticket_script.py: 451) Ticket number: 20190325:018
+[2019-03-30 03:08:01,088] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:01,105] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:01,132] INFO (ticket_script.py: 454) Ticket title: Segt simdim
+[2019-03-30 03:08:01,163] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Ersson, Ulrika
+[2019-03-30 03:08:01,180] INFO (ticket_script.py: 456) Priority: High
+[2019-03-30 03:08:01,220] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Bernehammar, Thomas
+[2019-03-30 03:08:01,361] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:01,361] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:01,510] INFO (ticket_script.py: 451) Ticket number: 20190322:007
+[2019-03-30 03:08:01,533] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:01,552] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:01,576] INFO (ticket_script.py: 454) Ticket title: URGENT - Regarding error during NAV calc
+[2019-03-30 03:08:01,601] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Robur, BO Trading Derivat
+[2019-03-30 03:08:01,615] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:01,632] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Melamed, Daniel
+[2019-03-30 03:08:01,756] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:01,756] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:01,921] INFO (ticket_script.py: 451) Ticket number: 20190321:011
+[2019-03-30 03:08:01,940] INFO (ticket_script.py: 452) Object/Area: SGMS2
+[2019-03-30 03:08:01,957] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:01,990] INFO (ticket_script.py: 454) Ticket title: SGMS - Rapport "SFS BU PCG Quarterly Rep
+[2019-03-30 03:08:02,023] INFO (ticket_script.py: 455) Registered for: Skanska Financial Services AB
+Larsson, Elisabeth
+[2019-03-30 03:08:02,039] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:02,059] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Händel, Klas
+[2019-03-30 03:08:02,286] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:02,286] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:02,476] INFO (ticket_script.py: 451) Ticket number: 20190320:019
+[2019-03-30 03:08:02,493] INFO (ticket_script.py: 452) Object/Area: MIFIDII
+[2019-03-30 03:08:02,513] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:02,542] INFO (ticket_script.py: 454) Ticket title: MiFID II trade with reference WSS7432485
+[2019-03-30 03:08:02,568] INFO (ticket_script.py: 455) Registered for: SPF
+Van Eijk, Harry
+[2019-03-30 03:08:02,584] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:02,605] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Karlsson, Anders
+[2019-03-30 03:08:02,750] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:02,750] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:02,940] INFO (ticket_script.py: 451) Ticket number: 20190320:016
+[2019-03-30 03:08:02,956] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:02,973] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:03,000] INFO (ticket_script.py: 454) Ticket title: Diferrencies between pre-migration NAV a
+[2019-03-30 03:08:03,025] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Vegys, Aurimas
+[2019-03-30 03:08:03,045] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:03,073] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Melamed, Daniel
+[2019-03-30 03:08:03,183] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:03,183] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:03,338] INFO (ticket_script.py: 451) Ticket number: 20190320:011
+[2019-03-30 03:08:03,355] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:03,378] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:03,411] INFO (ticket_script.py: 454) Ticket title: Confirmation matching issue
+[2019-03-30 03:08:03,437] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:03,457] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:03,480] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:03,585] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:03,585] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:03,752] INFO (ticket_script.py: 451) Ticket number: 20190319:011
+[2019-03-30 03:08:03,766] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:03,779] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:03,799] INFO (ticket_script.py: 454) Ticket title: CS_DATA i TEST
+[2019-03-30 03:08:03,818] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Broryd, Martin
+[2019-03-30 03:08:03,835] INFO (ticket_script.py: 456) Priority: High
+[2019-03-30 03:08:03,849] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:03,953] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:03,953] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:04,092] INFO (ticket_script.py: 451) Ticket number: 20190318:024
+[2019-03-30 03:08:04,107] INFO (ticket_script.py: 452) Object/Area: Data Warehouse
+[2019-03-30 03:08:04,118] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:04,140] INFO (ticket_script.py: 454) Ticket title: Saldo31 december 2018
+[2019-03-30 03:08:04,164] INFO (ticket_script.py: 455) Registered for: DNB Bank ASA
+Sigfrids, Hasse
+[2019-03-30 03:08:04,177] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:04,190] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Händel, Klas
+[2019-03-30 03:08:04,311] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:04,312] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:04,503] INFO (ticket_script.py: 451) Ticket number: 20190318:025
+[2019-03-30 03:08:04,519] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:04,532] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:04,555] INFO (ticket_script.py: 454) Ticket title: NOK-betalning korrbank
+[2019-03-30 03:08:04,573] INFO (ticket_script.py: 455) Registered for: SAS Group Finance & Asset Management
+SAS Finans, Gruppmail
+[2019-03-30 03:08:04,588] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:04,601] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hovelius, Mats
+[2019-03-30 03:08:04,698] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:04,698] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:04,852] INFO (ticket_script.py: 451) Ticket number: 20190315:016
+[2019-03-30 03:08:04,867] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:04,880] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:04,900] INFO (ticket_script.py: 454) Ticket title: Rounding CTM for Institutional clients
+[2019-03-30 03:08:04,918] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Robur, Back Office Trading
+[2019-03-30 03:08:04,931] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:04,947] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lerner, Linus
+[2019-03-30 03:08:05,051] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:05,052] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:05,197] INFO (ticket_script.py: 451) Ticket number: 20190314:023
+[2019-03-30 03:08:05,213] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:05,224] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:05,247] INFO (ticket_script.py: 454) Ticket title: GAIN access rights
+[2019-03-30 03:08:05,279] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:08:05,292] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:05,309] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:05,408] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:05,408] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:05,546] INFO (ticket_script.py: 451) Ticket number: 20190314:012
+[2019-03-30 03:08:05,559] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:05,572] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:05,598] INFO (ticket_script.py: 454) Ticket title: Daily transactions export
+[2019-03-30 03:08:05,622] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Karciauskaite, Asta
+[2019-03-30 03:08:05,635] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:05,651] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:05,746] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:05,746] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:05,877] INFO (ticket_script.py: 451) Ticket number: 20190313:018
+[2019-03-30 03:08:05,890] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:05,903] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:05,921] INFO (ticket_script.py: 454) Ticket title: TRMSwift FIN Message report / state "GEN
+[2019-03-30 03:08:05,938] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:05,953] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:05,967] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:06,073] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:06,073] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:06,200] INFO (ticket_script.py: 451) Ticket number: 20190312:009
+[2019-03-30 03:08:06,211] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:06,223] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:06,242] INFO (ticket_script.py: 454) Ticket title: Gränssnitt efter outsourcing
+[2019-03-30 03:08:06,263] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Åkerström, Henrik
+[2019-03-30 03:08:06,279] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:06,296] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Bernehammar, Thomas
+[2019-03-30 03:08:06,384] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:06,384] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:06,507] INFO (ticket_script.py: 451) Ticket number: 20190308:017
+[2019-03-30 03:08:06,520] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:06,532] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:06,552] INFO (ticket_script.py: 454) Ticket title: Matching
+[2019-03-30 03:08:06,572] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:06,585] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:06,599] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:06,714] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:06,716] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:06,855] INFO (ticket_script.py: 451) Ticket number: 20190308:015
+[2019-03-30 03:08:06,868] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:06,882] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:06,903] INFO (ticket_script.py: 454) Ticket title: Transaction parameter 0
+[2019-03-30 03:08:06,921] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:06,936] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:06,953] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:07,062] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:07,062] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:07,219] INFO (ticket_script.py: 451) Ticket number: 20190308:012
+[2019-03-30 03:08:07,233] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:07,249] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:07,275] INFO (ticket_script.py: 454) Ticket title: FW: Hej, jag försöker lägga order i PFF
+[2019-03-30 03:08:07,303] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Gibson, Mathias
+[2019-03-30 03:08:07,319] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:07,368] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:07,533] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:07,533] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:07,670] INFO (ticket_script.py: 451) Ticket number: 20190307:016
+[2019-03-30 03:08:07,683] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:07,694] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:07,717] INFO (ticket_script.py: 454) Ticket title: FIX i Test
+[2019-03-30 03:08:07,739] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Lehto Robur, Martin
+[2019-03-30 03:08:07,759] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:07,779] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lehto, Martin
+[2019-03-30 03:08:07,897] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:07,897] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:08,029] INFO (ticket_script.py: 451) Ticket number: 20190306:016
+[2019-03-30 03:08:08,042] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:08,055] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:08,075] INFO (ticket_script.py: 454) Ticket title: Delete back office event in TEST
+[2019-03-30 03:08:08,095] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Raulickiene , Evelina
+[2019-03-30 03:08:08,108] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:08,122] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:08:08,237] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:08,237] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:08,413] INFO (ticket_script.py: 451) Ticket number: 20190306:011
+[2019-03-30 03:08:08,426] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:08,440] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:08,466] INFO (ticket_script.py: 454) Ticket title: Simcorp - Misys connection
+[2019-03-30 03:08:08,493] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Robur, Back Office Trading
+[2019-03-30 03:08:08,509] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:08,526] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:08,645] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:08,645] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:08,838] INFO (ticket_script.py: 451) Ticket number: 20190305:016
+[2019-03-30 03:08:08,855] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:08,872] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:08,900] INFO (ticket_script.py: 454) Ticket title: Interest rates Wallstreet to Anaplan
+[2019-03-30 03:08:08,930] INFO (ticket_script.py: 455) Registered for: SAS Group Finance & Asset Management
+Gustafsson, Johan
+[2019-03-30 03:08:08,944] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:08,961] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hovelius, Mats
+[2019-03-30 03:08:09,084] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:09,084] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:09,226] INFO (ticket_script.py: 451) Ticket number: 20190305:009
+[2019-03-30 03:08:09,240] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:09,252] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:09,269] INFO (ticket_script.py: 454) Ticket title: Extern åtkomst till RG19
+[2019-03-30 03:08:09,286] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Boussard, Robert
+[2019-03-30 03:08:09,303] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:09,323] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lehto, Martin
+[2019-03-30 03:08:09,423] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:09,423] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:09,558] INFO (ticket_script.py: 451) Ticket number: 20190304:020
+[2019-03-30 03:08:09,569] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:09,584] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:09,601] INFO (ticket_script.py: 454) Ticket title: FRA OM Fee
+[2019-03-30 03:08:09,621] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Robur, BO Trading Derivat
+[2019-03-30 03:08:09,634] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:09,650] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lerner, Linus
+[2019-03-30 03:08:09,755] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:09,755] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:09,917] INFO (ticket_script.py: 451) Ticket number: 20190304:014
+[2019-03-30 03:08:09,933] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:09,950] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:09,971] INFO (ticket_script.py: 454) Ticket title: Matching tool / amended confo
+[2019-03-30 03:08:09,993] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:10,006] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:10,023] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:10,135] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:10,135] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:10,272] INFO (ticket_script.py: 451) Ticket number: 20190301:010
+[2019-03-30 03:08:10,285] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:10,299] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:10,328] INFO (ticket_script.py: 454) Ticket title: New date format in Brazil - problem with
+[2019-03-30 03:08:10,349] INFO (ticket_script.py: 455) Registered for: Volvo Treasury AB
+Operation group, Finance KIT
+[2019-03-30 03:08:10,362] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:10,377] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:10,489] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:10,489] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:10,650] INFO (ticket_script.py: 451) Ticket number: 20190227:024
+[2019-03-30 03:08:10,667] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:10,683] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:10,709] INFO (ticket_script.py: 454) Ticket title: Prisma import from Dimension problems
+[2019-03-30 03:08:10,734] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Rumbutis, Egidijus
+[2019-03-30 03:08:10,750] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:10,769] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:10,878] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:10,878] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:11,023] INFO (ticket_script.py: 451) Ticket number: 20190227:016
+[2019-03-30 03:08:11,036] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:11,051] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:11,073] INFO (ticket_script.py: 454) Ticket title: Settlement days default OM
+[2019-03-30 03:08:11,092] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Bergström, Niklas
+[2019-03-30 03:08:11,108] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:11,121] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:08:11,216] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:11,216] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:11,372] INFO (ticket_script.py: 451) Ticket number: 20190226:021
+[2019-03-30 03:08:11,385] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:11,398] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:08:11,418] INFO (ticket_script.py: 454) Ticket title: Amend allocation error OM
+[2019-03-30 03:08:11,438] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Bergström, Niklas
+[2019-03-30 03:08:11,453] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:11,469] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:08:11,578] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:11,578] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:11,709] INFO (ticket_script.py: 451) Ticket number: 20190226:017
+[2019-03-30 03:08:11,723] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:11,737] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:11,757] INFO (ticket_script.py: 454) Ticket title: 84051 fixed income activities in FK
+[2019-03-30 03:08:11,778] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Strinnholm, Christina
+[2019-03-30 03:08:11,793] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:11,809] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:11,926] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:11,926] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:12,082] INFO (ticket_script.py: 451) Ticket number: 20190225:012
+[2019-03-30 03:08:12,099] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:12,121] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:12,150] INFO (ticket_script.py: 454) Ticket title: Error in staging transaction data
+[2019-03-30 03:08:12,171] INFO (ticket_script.py: 455) Registered for: Volvo Treasury AB
+Surveillance, Volvo
+[2019-03-30 03:08:12,187] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:12,207] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Wallin, Erik
+[2019-03-30 03:08:12,315] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:12,315] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:12,460] INFO (ticket_script.py: 451) Ticket number: 20190222:016
+[2019-03-30 03:08:12,473] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:12,487] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:12,506] INFO (ticket_script.py: 454) Ticket title: Cut and paste in Dimension? - 60919
+[2019-03-30 03:08:12,528] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Lehto Robur, Martin
+[2019-03-30 03:08:12,545] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:12,558] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lehto, Martin
+[2019-03-30 03:08:12,671] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:12,671] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:12,813] INFO (ticket_script.py: 451) Ticket number: 20190222:017
+[2019-03-30 03:08:12,826] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:12,844] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:12,875] INFO (ticket_script.py: 454) Ticket title: RE: CitiSFT – Disabling Non-Compliant Pr
+[2019-03-30 03:08:12,895] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Chimakurthi, Neerada
+[2019-03-30 03:08:12,910] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:12,926] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:13,028] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:13,028] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:13,203] INFO (ticket_script.py: 451) Ticket number: 20190222:009
+[2019-03-30 03:08:13,217] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:13,230] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:13,252] INFO (ticket_script.py: 454) Ticket title: Implement Custody Functionality project
+[2019-03-30 03:08:13,272] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:13,285] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:13,299] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:13,407] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:13,407] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:13,571] INFO (ticket_script.py: 451) Ticket number: 20190221:025
+[2019-03-30 03:08:13,586] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:13,601] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:13,619] INFO (ticket_script.py: 454) Ticket title: Scrip dividend Def Kickback
+[2019-03-30 03:08:13,638] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Maintenance, Portfolio
+[2019-03-30 03:08:13,651] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:13,665] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:08:13,765] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:13,766] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:13,953] INFO (ticket_script.py: 451) Ticket number: 20190220:006
+[2019-03-30 03:08:13,973] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:13,990] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:14,013] INFO (ticket_script.py: 454) Ticket title: New Closing date activity
+[2019-03-30 03:08:14,036] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Lourie, Tomas
+[2019-03-30 03:08:14,052] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:14,066] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Bäfverfeldt, Michael
+[2019-03-30 03:08:14,203] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:14,203] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:14,448] INFO (ticket_script.py: 451) Ticket number: 20190219:026
+[2019-03-30 03:08:14,469] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:14,490] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:14,526] INFO (ticket_script.py: 454) Ticket title: Prod / payment netting /
+[2019-03-30 03:08:14,614] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:14,634] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:14,664] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:14,812] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:14,812] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:15,005] INFO (ticket_script.py: 451) Ticket number: 20190219:015
+[2019-03-30 03:08:15,023] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:15,039] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:15,065] INFO (ticket_script.py: 454) Ticket title: "List in" Exchange -> country CM
+[2019-03-30 03:08:15,091] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Hedstrom, Linda
+[2019-03-30 03:08:15,118] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:15,141] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:08:15,269] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:15,269] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:15,427] INFO (ticket_script.py: 451) Ticket number: 20190218:032
+[2019-03-30 03:08:15,440] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:15,453] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:15,476] INFO (ticket_script.py: 454) Ticket title: Efter uppgraderingen - Felaktig Trade Ty
+[2019-03-30 03:08:15,497] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Bergström, Niklas
+[2019-03-30 03:08:15,512] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:15,526] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:08:15,637] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:15,637] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:15,782] INFO (ticket_script.py: 451) Ticket number: 20190218:034
+[2019-03-30 03:08:15,798] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:15,813] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:15,835] INFO (ticket_script.py: 454) Ticket title: System Exception in Compliance Manager
+[2019-03-30 03:08:15,857] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Brown, David
+[2019-03-30 03:08:15,872] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:15,890] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Snellman, Gustav
+[2019-03-30 03:08:16,012] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:16,012] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:16,165] INFO (ticket_script.py: 451) Ticket number: 20190215:003
+[2019-03-30 03:08:16,180] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:16,194] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:08:16,217] INFO (ticket_script.py: 454) Ticket title: CLS and Misys activities don't work prop
+[2019-03-30 03:08:16,239] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Garcia, Pamela
+[2019-03-30 03:08:16,253] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:16,269] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:16,375] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:16,375] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:16,538] INFO (ticket_script.py: 451) Ticket number: 20190214:015
+[2019-03-30 03:08:16,552] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:16,571] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:16,595] INFO (ticket_script.py: 454) Ticket title: Routines to avoid scheduled restarts of
+[2019-03-30 03:08:16,617] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sandström, Johan
+[2019-03-30 03:08:16,634] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:16,651] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Ljungehed, Johan
+[2019-03-30 03:08:16,763] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:16,763] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:16,904] INFO (ticket_script.py: 451) Ticket number: 20190205:021
+[2019-03-30 03:08:16,930] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:16,944] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:16,963] INFO (ticket_script.py: 454) Ticket title: MORCOM i Test
+[2019-03-30 03:08:16,983] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Gibson, Mathias
+[2019-03-30 03:08:16,999] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:17,015] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:17,119] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:17,119] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:17,302] INFO (ticket_script.py: 451) Ticket number: 20190205:015
+[2019-03-30 03:08:17,319] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:17,336] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:17,365] INFO (ticket_script.py: 454) Ticket title: Equinor Dimension upgrade to version 19.
+[2019-03-30 03:08:17,391] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Gjerden, Pål
+[2019-03-30 03:08:17,408] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:17,440] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Blad, Fred
+[2019-03-30 03:08:17,632] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:17,632] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:17,821] INFO (ticket_script.py: 451) Ticket number: 20190204:025
+[2019-03-30 03:08:17,842] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:17,865] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:17,891] INFO (ticket_script.py: 454) Ticket title: MSCI EM Small Cap file transfer - 59637
+[2019-03-30 03:08:17,920] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Karlonas, Gytis
+[2019-03-30 03:08:17,950] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:17,967] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Lehto, Martin
+[2019-03-30 03:08:18,085] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:18,085] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:18,309] INFO (ticket_script.py: 451) Ticket number: 20190205:009
+[2019-03-30 03:08:18,325] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:18,342] INFO (ticket_script.py: 453) Ticket type: Project
+[2019-03-30 03:08:18,365] INFO (ticket_script.py: 454) Ticket title: FIN-370 WSS Patch
+[2019-03-30 03:08:18,388] INFO (ticket_script.py: 455) Registered for: SBAB
+Enlund, Sofie
+[2019-03-30 03:08:18,404] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:18,420] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:18,549] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:18,549] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:18,773] INFO (ticket_script.py: 451) Ticket number: 20190204:014
+[2019-03-30 03:08:18,793] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:18,809] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:18,836] INFO (ticket_script.py: 454) Ticket title: Incorrect statements in Corona
+[2019-03-30 03:08:18,868] INFO (ticket_script.py: 455) Registered for: Swedbank Robur
+Back Office, Controlling
+[2019-03-30 03:08:18,885] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:18,907] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Knorn, Jonathan
+[2019-03-30 03:08:19,036] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:19,036] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:19,194] INFO (ticket_script.py: 451) Ticket number: 20190201:011
+[2019-03-30 03:08:19,213] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:19,233] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:19,256] INFO (ticket_script.py: 454) Ticket title: Map SCPROD network drive in test environ
+[2019-03-30 03:08:19,282] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Todnem, Trond
+[2019-03-30 03:08:19,302] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:19,316] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Blad, Fred
+[2019-03-30 03:08:19,433] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:19,433] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:19,608] INFO (ticket_script.py: 451) Ticket number: 20190129:026
+[2019-03-30 03:08:19,622] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:19,638] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:19,667] INFO (ticket_script.py: 454) Ticket title: Calendar import / log / indicating impor
+[2019-03-30 03:08:19,698] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:19,717] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:19,733] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:19,859] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:19,859] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:20,043] INFO (ticket_script.py: 451) Ticket number: 20190117:006
+[2019-03-30 03:08:20,059] INFO (ticket_script.py: 452) Object/Area: POA - PowerOfAttorney
+[2019-03-30 03:08:20,073] INFO (ticket_script.py: 453) Ticket type:  
+[2019-03-30 03:08:20,099] INFO (ticket_script.py: 454) Ticket title: eBAM server migrering
+[2019-03-30 03:08:20,125] INFO (ticket_script.py: 455) Registered for: Skanska Financial Services AB
+Smeds, Håkan
+[2019-03-30 03:08:20,141] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:20,160] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Händel, Klas
+[2019-03-30 03:08:20,280] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:20,280] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:20,494] INFO (ticket_script.py: 451) Ticket number: 20190115:011
+[2019-03-30 03:08:20,519] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:20,542] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:20,572] INFO (ticket_script.py: 454) Ticket title: FIN-378 CHECKSUM wss acc Inlaning
+[2019-03-30 03:08:20,605] INFO (ticket_script.py: 455) Registered for: SBAB
+Hallstrom, Victor
+[2019-03-30 03:08:20,622] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:20,640] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:20,765] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:20,765] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:20,957] INFO (ticket_script.py: 451) Ticket number: 20190102:029
+[2019-03-30 03:08:20,993] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:21,019] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:21,052] INFO (ticket_script.py: 454) Ticket title: Ny utveckling JIRA [FIN-354] CSDR - Anpa
+[2019-03-30 03:08:21,085] INFO (ticket_script.py: 455) Registered for: SBAB
+Eriksson, Johanna
+[2019-03-30 03:08:21,108] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:21,130] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Bäfverfeldt, Michael
+[2019-03-30 03:08:21,275] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:21,275] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:21,436] INFO (ticket_script.py: 451) Ticket number: 20190102:026
+[2019-03-30 03:08:21,453] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:21,467] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:21,494] INFO (ticket_script.py: 454) Ticket title: Activity "SETTLEMENT-GENERATION-CC" / Cr
+[2019-03-30 03:08:21,517] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:21,532] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:21,549] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:21,654] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:21,654] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:21,808] INFO (ticket_script.py: 451) Ticket number: 20181212:031
+[2019-03-30 03:08:21,825] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:21,842] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:21,867] INFO (ticket_script.py: 454) Ticket title: Payment templates in SEB-online
+[2019-03-30 03:08:21,891] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Hård, Joakim
+[2019-03-30 03:08:21,907] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:21,926] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Nyström, Anders
+[2019-03-30 03:08:22,082] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:22,082] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:22,256] INFO (ticket_script.py: 451) Ticket number: 20181211:020
+[2019-03-30 03:08:22,269] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:22,282] INFO (ticket_script.py: 453) Ticket type: Project
+[2019-03-30 03:08:22,303] INFO (ticket_script.py: 454) Ticket title: 002 - Connection to Bloomberg Multilate
+[2019-03-30 03:08:22,323] INFO (ticket_script.py: 455) Registered for: BMW
+Treasury, DevOps
+[2019-03-30 03:08:22,338] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:22,352] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Schelin, Peter
+[2019-03-30 03:08:22,447] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:22,447] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:22,595] INFO (ticket_script.py: 451) Ticket number: 20181210:038
+[2019-03-30 03:08:22,609] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:22,625] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:22,644] INFO (ticket_script.py: 454) Ticket title: Matching flow
+[2019-03-30 03:08:22,665] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:22,681] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:22,696] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:22,792] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:22,792] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:22,936] INFO (ticket_script.py: 451) Ticket number: 20181207:025
+[2019-03-30 03:08:22,948] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:22,967] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:22,986] INFO (ticket_script.py: 454) Ticket title: Accounting grouping/aggregation - Call A
+[2019-03-30 03:08:23,022] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:23,035] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:23,052] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:23,157] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:23,157] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:23,328] INFO (ticket_script.py: 451) Ticket number: 20181205:033
+[2019-03-30 03:08:23,346] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:23,364] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:23,385] INFO (ticket_script.py: 454) Ticket title: 79010 Misys interface
+[2019-03-30 03:08:23,407] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Strinnholm, Christina
+[2019-03-30 03:08:23,421] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:23,434] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:23,549] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:23,549] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:23,697] INFO (ticket_script.py: 451) Ticket number: 20181204:023
+[2019-03-30 03:08:23,711] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:23,726] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:08:23,749] INFO (ticket_script.py: 454) Ticket title: Comkit Errors Implement ION Solution
+[2019-03-30 03:08:23,770] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:23,786] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:23,802] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:23,921] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:23,921] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:24,134] INFO (ticket_script.py: 451) Ticket number: 20181127:028
+[2019-03-30 03:08:24,150] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:24,165] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:24,190] INFO (ticket_script.py: 454) Ticket title: Additional FileType for Fileoutput in Ac
+[2019-03-30 03:08:24,211] INFO (ticket_script.py: 455) Registered for: BMW
+Treasury, DevOps
+[2019-03-30 03:08:24,226] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:24,243] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Schelin, Peter
+[2019-03-30 03:08:24,354] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:24,354] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:24,497] INFO (ticket_script.py: 451) Ticket number: 20181127:020
+[2019-03-30 03:08:24,513] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:24,542] INFO (ticket_script.py: 453) Ticket type: Project
+[2019-03-30 03:08:24,563] INFO (ticket_script.py: 454) Ticket title: MarkitSERV Confirmation Matching
+[2019-03-30 03:08:24,584] INFO (ticket_script.py: 455) Registered for: BMW
+Treasury, DevOps
+[2019-03-30 03:08:24,599] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:24,621] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Schelin, Peter
+[2019-03-30 03:08:24,733] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:24,733] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:24,891] INFO (ticket_script.py: 451) Ticket number: 20181127:024
+[2019-03-30 03:08:24,907] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:24,921] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:24,944] INFO (ticket_script.py: 454) Ticket title: 20181120:017 Ticket FW: CS-71689 - Bank
+[2019-03-30 03:08:24,967] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:08:24,984] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:25,003] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:25,125] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:25,125] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:25,303] INFO (ticket_script.py: 451) Ticket number: 20181126:035
+[2019-03-30 03:08:25,322] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:25,342] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:25,372] INFO (ticket_script.py: 454) Ticket title: SCDPROD - acces restrictions following a
+[2019-03-30 03:08:25,407] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Gjerden, Pål
+[2019-03-30 03:08:25,431] INFO (ticket_script.py: 456) Priority: High
+[2019-03-30 03:08:25,451] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Sahadat, Richard
+[2019-03-30 03:08:25,586] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:25,588] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:25,760] INFO (ticket_script.py: 451) Ticket number: 20181126:032
+[2019-03-30 03:08:25,782] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:25,802] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:25,825] INFO (ticket_script.py: 454) Ticket title: FIN-330 Oracle uppgradering 2019
+[2019-03-30 03:08:25,845] INFO (ticket_script.py: 455) Registered for: SBAB
+Hallstrom, Victor
+[2019-03-30 03:08:25,867] INFO (ticket_script.py: 456) Priority: Low
+[2019-03-30 03:08:25,884] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:26,000] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:26,000] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:26,181] INFO (ticket_script.py: 451) Ticket number: 20181123:003
+[2019-03-30 03:08:26,203] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:26,220] INFO (ticket_script.py: 453) Ticket type: Problem
+[2019-03-30 03:08:26,243] INFO (ticket_script.py: 454) Ticket title: Urgent payments
+[2019-03-30 03:08:26,266] INFO (ticket_script.py: 455) Registered for: Electrolux Group Treasury
+Noonan, Peter
+[2019-03-30 03:08:26,285] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:26,302] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:26,446] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:26,446] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:26,647] INFO (ticket_script.py: 451) Ticket number: 20181031:022
+[2019-03-30 03:08:26,665] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:26,684] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:26,713] INFO (ticket_script.py: 454) Ticket title: Setup sandbox env
+[2019-03-30 03:08:26,747] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-30 03:08:26,766] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:26,795] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:27,000] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:27,000] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:27,226] INFO (ticket_script.py: 451) Ticket number: 20180925:009
+[2019-03-30 03:08:27,250] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:27,270] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:27,299] INFO (ticket_script.py: 454) Ticket title: Kyriba Interfaces WSS
+[2019-03-30 03:08:27,325] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Lindhe, Håkan
+[2019-03-30 03:08:27,344] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:27,372] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:27,493] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:27,494] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:27,709] INFO (ticket_script.py: 451) Ticket number: 20180920:015
+[2019-03-30 03:08:27,724] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:27,740] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:27,762] INFO (ticket_script.py: 454) Ticket title: 78856 Automated NDF fixing
+[2019-03-30 03:08:27,783] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Strinnholm, Christina
+[2019-03-30 03:08:27,799] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:27,815] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:27,930] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:27,930] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:28,096] INFO (ticket_script.py: 451) Ticket number: 20180917:018
+[2019-03-30 03:08:28,115] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:28,131] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:28,154] INFO (ticket_script.py: 454) Ticket title: Demand regarding Confirmations developme
+[2019-03-30 03:08:28,178] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Soriano, Elisabeth
+[2019-03-30 03:08:28,194] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:28,211] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:28,332] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:28,332] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:28,529] INFO (ticket_script.py: 451) Ticket number: 20180907:011
+[2019-03-30 03:08:28,551] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:28,565] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:28,598] INFO (ticket_script.py: 454) Ticket title: sftp changes - project task
+[2019-03-30 03:08:28,621] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Gjerden, Pål
+[2019-03-30 03:08:28,667] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:28,720] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Sahadat, Richard
+[2019-03-30 03:08:28,841] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:28,841] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:29,040] INFO (ticket_script.py: 451) Ticket number: 20180906:015
+[2019-03-30 03:08:29,061] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:29,088] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:29,125] INFO (ticket_script.py: 454) Ticket title: Ang. gamla FinanceKit-servrar
+[2019-03-30 03:08:29,154] INFO (ticket_script.py: 455) Registered for: SBAB
+Eriksson, Johanna
+[2019-03-30 03:08:29,176] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:29,194] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:29,308] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:29,308] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:29,470] INFO (ticket_script.py: 451) Ticket number: 20180828:009
+[2019-03-30 03:08:29,490] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:29,506] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:29,532] INFO (ticket_script.py: 454) Ticket title: TAnalytics Phase II
+[2019-03-30 03:08:29,561] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Lindhe, Håkan
+[2019-03-30 03:08:29,581] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:29,611] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:29,743] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:29,743] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:29,941] INFO (ticket_script.py: 451) Ticket number: 20180827:038
+[2019-03-30 03:08:29,964] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:29,989] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:30,020] INFO (ticket_script.py: 454) Ticket title: CITI automatic financial settlements (FK
+[2019-03-30 03:08:30,055] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Strinnholm, Christina
+[2019-03-30 03:08:30,089] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:30,140] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:30,332] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:30,332] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:30,542] INFO (ticket_script.py: 451) Ticket number: 20180823:028
+[2019-03-30 03:08:30,569] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:30,592] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:30,644] INFO (ticket_script.py: 454) Ticket title: Futures STP Bloomberg EMSX
+[2019-03-30 03:08:30,690] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Strinnholm, Christina
+[2019-03-30 03:08:30,727] INFO (ticket_script.py: 456) Priority: Low
+[2019-03-30 03:08:30,760] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:30,894] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:30,894] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:31,069] INFO (ticket_script.py: 451) Ticket number: 20180810:021
+[2019-03-30 03:08:31,088] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:31,105] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:31,151] INFO (ticket_script.py: 454) Ticket title: CR1711 178 Schedule and maintain report
+[2019-03-30 03:08:31,173] INFO (ticket_script.py: 455) Registered for: FMO
+Schoonhoven, Kees
+[2019-03-30 03:08:31,190] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:31,209] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:31,334] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:31,335] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:31,493] INFO (ticket_script.py: 451) Ticket number: 20180726:013
+[2019-03-30 03:08:31,510] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:31,529] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:31,559] INFO (ticket_script.py: 454) Ticket title: APP-ALL-APPLICATIONS
+[2019-03-30 03:08:31,581] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:31,598] INFO (ticket_script.py: 456) Priority: Low
+[2019-03-30 03:08:31,617] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:31,766] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:31,766] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:32,002] INFO (ticket_script.py: 451) Ticket number: 20180629:016
+[2019-03-30 03:08:32,026] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:32,055] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:32,099] INFO (ticket_script.py: 454) Ticket title: WSS - Finance Kit documentation
+[2019-03-30 03:08:32,148] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-30 03:08:32,171] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:32,197] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:32,332] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:32,332] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:32,528] INFO (ticket_script.py: 451) Ticket number: 20180621:013
+[2019-03-30 03:08:32,572] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:32,615] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:32,661] INFO (ticket_script.py: 454) Ticket title: Failed logins in FinanceKit
+[2019-03-30 03:08:32,697] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Chimakurthi, Neerada
+[2019-03-30 03:08:32,720] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:32,749] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:32,986] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:32,986] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:33,270] INFO (ticket_script.py: 451) Ticket number: 20180607:037
+[2019-03-30 03:08:33,290] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:33,311] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:33,342] INFO (ticket_script.py: 454) Ticket title: 73126 IRS Automatic matching
+[2019-03-30 03:08:33,378] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Strinnholm, Christina
+[2019-03-30 03:08:33,407] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:33,433] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:33,605] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:33,605] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:33,770] INFO (ticket_script.py: 451) Ticket number: 20180531:015
+[2019-03-30 03:08:33,788] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:33,803] INFO (ticket_script.py: 453) Ticket type: Project
+[2019-03-30 03:08:33,825] INFO (ticket_script.py: 454) Ticket title: Alliance Lite2 Migration from Multi to S
+[2019-03-30 03:08:33,848] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Todnem, Trond
+[2019-03-30 03:08:33,864] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:33,884] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Chrafih, Abdel
+[2019-03-30 03:08:34,017] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:34,017] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:34,250] INFO (ticket_script.py: 451) Ticket number: 20180509:058
+[2019-03-30 03:08:34,279] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:34,302] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:34,332] INFO (ticket_script.py: 454) Ticket title: DCTB enhancement
+[2019-03-30 03:08:34,358] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:34,380] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:34,400] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:34,519] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:34,519] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:34,707] INFO (ticket_script.py: 451) Ticket number: 20180509:057
+[2019-03-30 03:08:34,723] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:34,744] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:34,769] INFO (ticket_script.py: 454) Ticket title: Calendar import enhancement
+[2019-03-30 03:08:34,802] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:34,825] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:34,844] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:34,970] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:34,970] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:35,131] INFO (ticket_script.py: 451) Ticket number: 20180508:023
+[2019-03-30 03:08:35,151] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:35,184] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:35,220] INFO (ticket_script.py: 454) Ticket title: IOPS-101 Flytt av Citrix till Axians
+[2019-03-30 03:08:35,250] INFO (ticket_script.py: 455) Registered for: SBAB
+Eriksson, Lars-Erik
+[2019-03-30 03:08:35,273] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:35,298] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:35,438] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:35,438] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:35,605] INFO (ticket_script.py: 451) Ticket number: 20180508:017
+[2019-03-30 03:08:35,622] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:35,638] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:35,665] INFO (ticket_script.py: 454) Ticket title: Confirmation matching rules / tag 83A
+[2019-03-30 03:08:35,701] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:35,721] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:35,753] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:35,933] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:35,934] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:36,089] INFO (ticket_script.py: 451) Ticket number: 20180423:009
+[2019-03-30 03:08:36,102] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:36,119] INFO (ticket_script.py: 453) Ticket type: Incident
+[2019-03-30 03:08:36,150] INFO (ticket_script.py: 454) Ticket title: FK Upgrade / DCTB / performance
+[2019-03-30 03:08:36,174] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:36,197] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:36,213] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:36,318] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:36,318] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:36,483] INFO (ticket_script.py: 451) Ticket number: 20180419:013
+[2019-03-30 03:08:36,499] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:36,513] INFO (ticket_script.py: 453) Ticket type: Project
+[2019-03-30 03:08:36,540] INFO (ticket_script.py: 454) Ticket title: Installation of FTS Scheduler
+[2019-03-30 03:08:36,566] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Meltveit, Rolf Arild
+[2019-03-30 03:08:36,579] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:36,594] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Chrafih, Abdel
+[2019-03-30 03:08:36,686] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:36,686] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:36,858] INFO (ticket_script.py: 451) Ticket number: 20180411:015
+[2019-03-30 03:08:36,871] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:36,888] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:36,911] INFO (ticket_script.py: 454) Ticket title: Financekit batch server TEST and DEV
+[2019-03-30 03:08:36,934] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-30 03:08:36,948] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:36,967] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:37,072] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:37,072] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:37,270] INFO (ticket_script.py: 451) Ticket number: 20180320:021
+[2019-03-30 03:08:37,288] INFO (ticket_script.py: 452) Object/Area: SimCorp Dimension
+[2019-03-30 03:08:37,302] INFO (ticket_script.py: 453) Ticket type: Project
+[2019-03-30 03:08:37,331] INFO (ticket_script.py: 454) Ticket title: Statoil - Market data vendor
+[2019-03-30 03:08:37,361] INFO (ticket_script.py: 455) Registered for: Equinor ASA
+Todnem, Trond
+[2019-03-30 03:08:37,378] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:37,401] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Chrafih, Abdel
+[2019-03-30 03:08:37,526] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:37,526] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:37,690] INFO (ticket_script.py: 451) Ticket number: 20180315:007
+[2019-03-30 03:08:37,706] INFO (ticket_script.py: 452) Object/Area: FMO - Wallstreet Suite - Upgrade issues
+[2019-03-30 03:08:37,732] INFO (ticket_script.py: 453) Ticket type:  
+[2019-03-30 03:08:37,753] INFO (ticket_script.py: 454) Ticket title: FK Upgrade / UAT / activity log / URL
+[2019-03-30 03:08:37,776] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:37,789] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:37,805] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:37,901] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:37,901] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:38,055] INFO (ticket_script.py: 451) Ticket number: 20180301:033
+[2019-03-30 03:08:38,069] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:38,084] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:38,105] INFO (ticket_script.py: 454) Ticket title: FK Upgrade / UAT / MT-362 / negative int
+[2019-03-30 03:08:38,128] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:38,141] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:38,157] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:38,269] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:38,269] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:38,427] INFO (ticket_script.py: 451) Ticket number: 20180228:021
+[2019-03-30 03:08:38,443] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:38,459] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:38,487] INFO (ticket_script.py: 454) Ticket title: FK Upgrade / UAT / MT-362 / tag 53A
+[2019-03-30 03:08:38,515] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:38,532] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:38,549] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:38,676] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:38,676] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:38,911] INFO (ticket_script.py: 451) Ticket number: 20180228:019
+[2019-03-30 03:08:38,930] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:38,948] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:38,980] INFO (ticket_script.py: 454) Ticket title: FK Upgrade / UAT / MT-362 / first interp
+[2019-03-30 03:08:39,009] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:39,026] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:39,048] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:39,180] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:39,180] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:39,394] INFO (ticket_script.py: 451) Ticket number: 20180124:032
+[2019-03-30 03:08:39,411] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:39,430] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:39,463] INFO (ticket_script.py: 454) Ticket title: MT 300 NDF Specific Features
+[2019-03-30 03:08:39,490] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:39,506] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:39,522] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Hacker, Magnus
+[2019-03-30 03:08:39,651] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:39,653] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:39,812] INFO (ticket_script.py: 451) Ticket number: 20170530:007
+[2019-03-30 03:08:39,832] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:39,845] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:39,868] INFO (ticket_script.py: 454) Ticket title: Disaster Recovery Plan - Financekit
+[2019-03-30 03:08:39,891] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-30 03:08:39,904] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:39,918] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:40,015] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:40,015] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:40,173] INFO (ticket_script.py: 451) Ticket number: 20170529:021
+[2019-03-30 03:08:40,190] INFO (ticket_script.py: 452) Object/Area: Wallstreet Suite
+[2019-03-30 03:08:40,204] INFO (ticket_script.py: 453) Ticket type: Request Fulfilment
+[2019-03-30 03:08:40,226] INFO (ticket_script.py: 454) Ticket title: TRMSwift / MT-535
+[2019-03-30 03:08:40,257] INFO (ticket_script.py: 455) Registered for: FMO
+Slingerland, Bert-Jan
+[2019-03-30 03:08:40,272] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:40,286] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Antony, Anand
+[2019-03-30 03:08:40,388] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:40,388] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:40,559] INFO (ticket_script.py: 451) Ticket number: 20170505:014
+[2019-03-30 03:08:40,575] INFO (ticket_script.py: 452) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-30 03:08:40,592] INFO (ticket_script.py: 453) Ticket type: Change Request
+[2019-03-30 03:08:40,619] INFO (ticket_script.py: 454) Ticket title: WSS - Upgrade SQL database server from 2
+[2019-03-30 03:08:40,647] INFO (ticket_script.py: 455) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-30 03:08:40,665] INFO (ticket_script.py: 456) Priority: Medium
+[2019-03-30 03:08:40,688] INFO (ticket_script.py: 457) Assigned to: Opened Take over
+Tölldén, Fredrik
+[2019-03-30 03:08:40,806] INFO (ticket_script.py: 497) Data written to the report. Moving to the next row...
+[2019-03-30 03:08:40,806] INFO (ticket_script.py: 498) ---------------------------------------------------------
+[2019-03-30 03:08:40,808] INFO (ticket_script.py: 503) Data writing completed for Opened tickets
+[2019-03-30 03:08:40,808] INFO (ticket_script.py: 323) 115 Opened tickets found

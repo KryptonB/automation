@@ -1,0 +1,20 @@
+[2019-03-26 23:29:48,796] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:61601/session {"capabilities": {"alwaysMatch": {"browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+[2019-03-26 23:29:56,269] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 23:29:56,269] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:61601/session/4bb741c380a7483ac7d2f0a442cc2fb7/url {"url": "https://fss.virtusa.com", "sessionId": "4bb741c380a7483ac7d2f0a442cc2fb7"}
+[2019-03-26 23:30:00,144] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 23:30:00,144] DEBUG (ticket_script.py: 108) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-26 23:30:00,144] DEBUG (ticket_script.py: 109) Artologik URL: https://fss.virtusa.com
+[2019-03-26 23:30:05,144] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:61601/session/4bb741c380a7483ac7d2f0a442cc2fb7/element {"using": "id", "sessionId": "4bb741c380a7483ac7d2f0a442cc2fb7", "value": "UserName"}
+[2019-03-26 23:30:05,163] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 23:30:05,163] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:61601/session/4bb741c380a7483ac7d2f0a442cc2fb7/element/0.9448895072066184-1/click {"sessionId": "4bb741c380a7483ac7d2f0a442cc2fb7", "id": "0.9448895072066184-1"}
+[2019-03-26 23:30:05,217] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 23:30:05,217] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:61601/session/4bb741c380a7483ac7d2f0a442cc2fb7/element/0.9448895072066184-1/value {"text": "sratnappuli", "sessionId": "4bb741c380a7483ac7d2f0a442cc2fb7", "id": "0.9448895072066184-1", "value": ["s", "r", "a", "t", "n", "a", "p", "p", "u", "l", "i"]}
+[2019-03-26 23:30:05,384] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 23:30:05,384] INFO (ticket_script.py: 119) Username box found
+[2019-03-26 23:30:07,384] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:61601/session/4bb741c380a7483ac7d2f0a442cc2fb7/element {"using": "id", "sessionId": "4bb741c380a7483ac7d2f0a442cc2fb7", "value": "PassWordaa"}
+[2019-03-26 23:30:07,401] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 23:30:07,401] ERROR (ticket_script.py: 195) Element not found!Message: no such element: Unable to locate element: {"method":"id","selector":"PassWordaa"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2019-03-26 23:30:07,401] INFO (ticket_script.py: 196) Terminating the program...

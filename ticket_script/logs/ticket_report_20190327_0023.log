@@ -1,0 +1,14 @@
+[2019-03-27 00:23:33,513] ERROR (ticket_script.py: 102) Expecting : delimiter: line 3 column 13 (char 26)
+Traceback (most recent call last):
+  File "C:\Users\sratnappuli\Desktop\delegated_tickets_script\ticket_script.py", line 93, in extract_credentials
+    config = json.load(f)
+  File "C:\Python27\lib\json\__init__.py", line 291, in load
+    **kw)
+  File "C:\Python27\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 380, in raw_decode
+    obj, end = self.scan_once(s, idx)
+ValueError: Expecting : delimiter: line 3 column 13 (char 26)
+[2019-03-27 00:23:33,529] INFO (ticket_script.py: 103) Terminating the program...

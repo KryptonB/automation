@@ -1,0 +1,12 @@
+[2019-03-27 05:58:26,042] INFO (ticket_script.py: 114) Username / Password extracted successfully
+[2019-03-27 05:58:40,036] INFO (ticket_script.py: 127) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-27 05:58:40,036] INFO (ticket_script.py: 128) Artologik URL: https://fss.virtusa.com
+[2019-03-27 05:58:45,282] INFO (ticket_script.py: 143) Username box found
+[2019-03-27 05:58:46,832] INFO (ticket_script.py: 151) Password box found
+[2019-03-27 05:58:55,994] INFO (ticket_script.py: 156) Login button found
+[2019-03-27 05:59:16,049] INFO (ticket_script.py: 164) Switched to left navigation menu
+[2019-03-27 05:59:21,085] INFO (ticket_script.py: 169) Tickets button found and clicked!
+[2019-03-27 05:59:41,153] INFO (ticket_script.py: 179) Switched to top pane
+[2019-03-27 05:59:41,196] INFO (ticket_script.py: 184) Switched to dropdown list pane
+[2019-03-27 05:59:46,517] INFO (ticket_script.py: 191) Dropdown list found and clicked!
+[2019-03-27 05:59:51,150] INFO (ticket_script.py: 196) All New and Current Tickets option from the list is found and clicked!

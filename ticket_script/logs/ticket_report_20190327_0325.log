@@ -1,0 +1,27 @@
+[2019-03-27 03:25:47,071] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session {"capabilities": {"alwaysMatch": {"browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+[2019-03-27 03:25:54,533] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:25:54,535] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/url {"url": "https://fss.virtusa.com", "sessionId": "03cc379ae3dac4cd3f196d68f0cfa573"}
+[2019-03-27 03:25:58,627] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:25:58,627] INFO (ticket_script.py: 121) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-27 03:25:58,627] INFO (ticket_script.py: 122) Artologik URL: https://fss.virtusa.com
+[2019-03-27 03:26:03,628] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element {"using": "id", "sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "value": "UserName"}
+[2019-03-27 03:26:03,644] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:03,644] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element/0.1580731081258413-1/click {"sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "id": "0.1580731081258413-1"}
+[2019-03-27 03:26:03,710] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:03,711] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element/0.1580731081258413-1/value {"text": "sratnappuliaa", "sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "id": "0.1580731081258413-1", "value": ["s", "r", "a", "t", "n", "a", "p", "p", "u", "l", "i", "a", "a"]}
+[2019-03-27 03:26:03,848] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:03,848] INFO (ticket_script.py: 131) Username box found
+[2019-03-27 03:26:04,848] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element {"using": "id", "sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "value": "PassWord"}
+[2019-03-27 03:26:04,865] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:04,865] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element/0.1580731081258413-2/click {"sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "id": "0.1580731081258413-2"}
+[2019-03-27 03:26:04,905] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:04,905] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element/0.1580731081258413-2/value {"text": "Winter123", "sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "id": "0.1580731081258413-2", "value": ["W", "i", "n", "t", "e", "r", "1", "2", "3"]}
+[2019-03-27 03:26:04,971] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:04,971] INFO (ticket_script.py: 139) Password box found
+[2019-03-27 03:26:04,971] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element {"using": "xpath", "sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "value": "/html/body/div/form/p[4]/input"}
+[2019-03-27 03:26:04,989] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:04,989] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element/0.1580731081258413-3/click {"sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "id": "0.1580731081258413-3"}
+[2019-03-27 03:26:05,503] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:26:05,505] INFO (ticket_script.py: 144) Login button found
+[2019-03-27 03:26:25,505] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:57368/session/03cc379ae3dac4cd3f196d68f0cfa573/element {"using": "id", "sessionId": "03cc379ae3dac4cd3f196d68f0cfa573", "value": "Page3"}
+[2019-03-27 03:26:25,506] DEBUG (remote_connection.py: 565) Finished Request

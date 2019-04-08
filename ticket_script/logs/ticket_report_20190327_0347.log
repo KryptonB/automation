@@ -1,0 +1,29 @@
+[2019-03-27 03:47:08,526] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:58010/session {"capabilities": {"alwaysMatch": {"browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+[2019-03-27 03:47:15,868] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:47:15,868] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:58010/session/082a797985f0ee9a7fa8d1183f2222df/url {"url": "https://fss.virtusa.comaa", "sessionId": "082a797985f0ee9a7fa8d1183f2222df"}
+[2019-03-27 03:47:17,608] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:47:17,608] INFO (ticket_script.py: 122) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-27 03:47:17,608] INFO (ticket_script.py: 123) Artologik URL: https://fss.virtusa.comaa
+[2019-03-27 03:47:22,608] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:58010/session/082a797985f0ee9a7fa8d1183f2222df/element {"using": "id", "sessionId": "082a797985f0ee9a7fa8d1183f2222df", "value": "UserName"}
+[2019-03-27 03:47:22,653] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-27 03:47:22,654] ERROR (ticket_script.py: 208) Message: no such element: Unable to locate element: {"method":"id","selector":"UserName"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\sratnappuli\Desktop\delegated_tickets_script\ticket_script.py", line 129, in initiate_artologik_login
+    u = browser.find_element_by_id('UserName')
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 341, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 843, in find_element
+    'value': value})['value']
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"UserName"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+[2019-03-27 03:47:22,657] INFO (ticket_script.py: 209) Terminating the program...
+[2019-03-27 03:47:22,657] DEBUG (remote_connection.py: 478) DELETE http://127.0.0.1:58010/session/082a797985f0ee9a7fa8d1183f2222df {"sessionId": "082a797985f0ee9a7fa8d1183f2222df"}
+[2019-03-27 03:47:22,867] DEBUG (remote_connection.py: 565) Finished Request

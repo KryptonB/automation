@@ -1,0 +1,29 @@
+[2019-03-28 07:26:51,362] INFO (delegated_ticket_script.py: 118) Username / Password extracted successfully
+[2019-03-28 07:27:06,197] INFO (delegated_ticket_script.py: 163) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-28 07:27:06,197] INFO (delegated_ticket_script.py: 164) Artologik URL: https://fss.virtusa.com
+[2019-03-28 07:27:11,446] INFO (delegated_ticket_script.py: 179) Username box found
+[2019-03-28 07:27:12,596] INFO (delegated_ticket_script.py: 187) Password box found
+[2019-03-28 07:27:20,628] INFO (delegated_ticket_script.py: 192) Login button found
+[2019-03-28 07:27:40,710] INFO (delegated_ticket_script.py: 200) Switched to left navigation menu
+[2019-03-28 07:27:44,628] INFO (delegated_ticket_script.py: 205) Tickets button found and clicked!
+[2019-03-28 07:28:04,710] INFO (delegated_ticket_script.py: 215) Switched to top pane
+[2019-03-28 07:28:04,760] INFO (delegated_ticket_script.py: 220) Switched to dropdown list pane
+[2019-03-28 07:28:10,009] INFO (delegated_ticket_script.py: 227) Dropdown list found and clicked!
+[2019-03-28 07:28:12,783] INFO (delegated_ticket_script.py: 232) All New and Current Tickets option from the list is found and clicked!
+[2019-03-28 07:28:32,976] INFO (delegated_ticket_script.py: 246) Switched to tickets pane
+[2019-03-28 07:28:53,029] INFO (delegated_ticket_script.py: 256) Reading ticket details...
+[2019-03-28 07:28:53,029] INFO (delegated_ticket_script.py: 259) 1 Delegated tickets found
+[2019-03-28 07:28:58,209] INFO (delegated_ticket_script.py: 372) Ticket number: 20170505:014
+[2019-03-28 07:28:58,219] INFO (delegated_ticket_script.py: 373) Object/Area: Ericsson - Wallstreet Suite
+[2019-03-28 07:28:58,229] INFO (delegated_ticket_script.py: 374) Ticket type: Change Request
+[2019-03-28 07:28:58,229] INFO (delegated_ticket_script.py: 375) Ticket title: WSS - Upgrade SQL database server from 2
+[2019-03-28 07:28:58,249] INFO (delegated_ticket_script.py: 376) Registered for: Ericsson Group Function Finance
+Sundberg, Dan
+[2019-03-28 07:28:58,259] INFO (delegated_ticket_script.py: 377) Priority: Medium
+[2019-03-28 07:28:58,269] INFO (delegated_ticket_script.py: 378) Assigned to: Delegated
+Tölldén, Fredrik
+[2019-03-28 07:28:58,338] INFO (delegated_ticket_script.py: 404) Data written to the report. Moving to the next row...
+[2019-03-28 07:28:58,338] INFO (delegated_ticket_script.py: 405) ---------------------------------
+[2019-03-28 07:28:58,338] INFO (delegated_ticket_script.py: 410) Data writing completed
+[2019-03-28 07:28:58,348] INFO (delegated_ticket_script.py: 414) Saving the report...
+[2019-03-28 07:28:58,348] INFO (delegated_ticket_script.py: 415) Saved successfully. Report name: C:\Users\sratnappuli\Desktop\delegated_tickets_script\reports\Delegated_Ticket_List_20190328_0726.xlsx

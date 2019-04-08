@@ -1,0 +1,24 @@
+[2019-03-26 18:11:26,523] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session {"capabilities": {"alwaysMatch": {"browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+[2019-03-26 18:11:29,336] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:29,336] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/url {"url": "https://fss.virtusa.com", "sessionId": "789b26d0e52318e26d4ca9c9802ba57f"}
+[2019-03-26 18:11:32,934] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:32,934] DEBUG (ticket_script.py: 70) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-26 18:11:32,934] DEBUG (ticket_script.py: 71) Artologik URL: https://fss.virtusa.com
+[2019-03-26 18:11:37,938] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element {"using": "id", "sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "value": "UserName"}
+[2019-03-26 18:11:37,959] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:37,959] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element/0.27180247091634024-1/click {"sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "id": "0.27180247091634024-1"}
+[2019-03-26 18:11:38,022] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:38,023] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element/0.27180247091634024-1/value {"text": "sratnappuli", "sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "id": "0.27180247091634024-1", "value": ["s", "r", "a", "t", "n", "a", "p", "p", "u", "l", "i"]}
+[2019-03-26 18:11:38,161] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:38,161] DEBUG (ticket_script.py: 79) Username box: <selenium.webdriver.remote.webelement.WebElement (session="789b26d0e52318e26d4ca9c9802ba57f", element="0.27180247091634024-1")>
+[2019-03-26 18:11:40,168] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element {"using": "id", "sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "value": "PassWord"}
+[2019-03-26 18:11:40,178] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:40,178] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element/0.27180247091634024-2/click {"sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "id": "0.27180247091634024-2"}
+[2019-03-26 18:11:40,229] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:40,229] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element/0.27180247091634024-2/value {"text": "Winter123", "sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "id": "0.27180247091634024-2", "value": ["W", "i", "n", "t", "e", "r", "1", "2", "3"]}
+[2019-03-26 18:11:40,322] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:40,322] DEBUG (ticket_script.py: 87) Password box: <selenium.webdriver.remote.webelement.WebElement (session="789b26d0e52318e26d4ca9c9802ba57f", element="0.27180247091634024-2")>
+[2019-03-26 18:11:40,322] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element {"using": "xpath", "sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "value": "/html/body/div/form/p[4]/input"}
+[2019-03-26 18:11:40,345] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:11:40,345] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64653/session/789b26d0e52318e26d4ca9c9802ba57f/element/0.27180247091634024-3/click {"sessionId": "789b26d0e52318e26d4ca9c9802ba57f", "id": "0.27180247091634024-3"}
+[2019-03-26 18:11:48,233] DEBUG (remote_connection.py: 565) Finished Request

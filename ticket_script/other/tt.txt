@@ -1,0 +1,24 @@
+//*[@id="td2"]
+
+/html/body/table[1]/tbody/tr[2]
+//*[@id="mnuItm67"]
+
+
+//*[@id="ListID"]/option[3]
+//*[@id="ListID"]/option[12]
+
+
+
+//*[@id="tblErrands"]/tbody/tr/td[contains(text(), "Delegated")]
+WebElement customer = table.findElement(By.xpath("//tr/td[contains(text(), 'TEST CUSTOMER 2')]"));
+
+
+
+//table[@id='atab']//tr[contains(td[2], 'needle')]/td[11]/ul/li/input
+
+//*[@id="tblErrands"]/tbody/tr//font[@class="statusNew"]
+
+//*[@id="tblErrands"]/tbody/tr[//font[@class="statusNew"]] -- works
+tt = browser.find_elements_by_xpath('//*[@id="tblErrands"]/tbody/tr')  -- works
+
+//*[@id="tblErrands"]/tbody/tr[contains(td[8], 'Delegated')]

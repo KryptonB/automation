@@ -1,0 +1,12 @@
+[2019-03-26 18:01:44,191] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64366/session {"capabilities": {"alwaysMatch": {"browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+[2019-03-26 18:01:51,566] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:01:51,566] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64366/session/44e3b42ec0abfa2dcdc31dc3ee073f96/url {"url": "https://fss.virtusa.com", "sessionId": "44e3b42ec0abfa2dcdc31dc3ee073f96"}
+[2019-03-26 18:01:56,213] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:01:56,213] DEBUG (ticket_script.py: 70) Chrome driver path: C:\Users\sratnappuli\Desktop\delegated_tickets_script\drivers\chromedriver.exe
+[2019-03-26 18:01:56,213] DEBUG (ticket_script.py: 71) Artologik URL: https://fss.virtusa.com
+[2019-03-26 18:02:01,214] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64366/session/44e3b42ec0abfa2dcdc31dc3ee073f96/element {"using": "id", "sessionId": "44e3b42ec0abfa2dcdc31dc3ee073f96", "value": "UserName"}
+[2019-03-26 18:02:01,244] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:02:01,244] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64366/session/44e3b42ec0abfa2dcdc31dc3ee073f96/element/0.9456637666183569-1/click {"sessionId": "44e3b42ec0abfa2dcdc31dc3ee073f96", "id": "0.9456637666183569-1"}
+[2019-03-26 18:02:01,308] DEBUG (remote_connection.py: 565) Finished Request
+[2019-03-26 18:02:01,309] DEBUG (remote_connection.py: 478) POST http://127.0.0.1:64366/session/44e3b42ec0abfa2dcdc31dc3ee073f96/element/0.9456637666183569-1/value {"text": "sratnappuli", "sessionId": "44e3b42ec0abfa2dcdc31dc3ee073f96", "id": "0.9456637666183569-1", "value": ["s", "r", "a", "t", "n", "a", "p", "p", "u", "l", "i"]}
+[2019-03-26 18:02:01,390] DEBUG (remote_connection.py: 565) Finished Request
