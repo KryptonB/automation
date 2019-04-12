@@ -1,0 +1,22 @@
+belot is the function getErrand()
+
+"HD_Errand.cgi"
+		        + "?Action=ErrandDesc"
+		        + "&ErrandKey=" + escape( jQuery.trim(errandKey) )
+		        + "&BodyWidth=" + getBodyWidth()
+		        + "&rnd=" + new Date().getTime()
+
+https://fss.virtusa.com/support/HD/cgi-bin/
+https://fss.virtusa.com/support/HD/cgi-bin//HD_Errand.cgi?Action=ErrandDesc&ErrandKey=20190328%3A018&BodyWidth=&rnd=1553925968136
+
+
+
+this is the url you need to use to access a particular ticket. Note the ticket id is given as = ErrandKey=20190328%3A016  --> 20190328:016
+
+https://fss.virtusa.com/support/HD/cgi-bin/HD_Errand.cgi?Action=ErrandDesc2&IsPopup=1&show_FAQ=0&Language=&ErrandType=0&SearchType=0&Style=13&ErrandKey=20190328%3A018&IsSearch=1&Rnd=1553925968136
+https://fss.virtusa.com/support/HD/cgi-bin/HD_Errand.cgi?Action=ErrandDesc2&IsPopup=1&show_FAQ=0&Language=&ErrandType=0&SearchType=0&Style=13&ErrandKey=20190328%3A016&IsSearch=1&Rnd=1553926524121
+
+
+
+you can use it as below with few less details
+https://fss.virtusa.com/support/HD/cgi-bin/HD_Errand.cgi?Action=ErrandDesc2&IsPopup=1&show_FAQ=0&Language=&ErrandType=0&SearchType=0&Style=13&ErrandKey=20190329%3A019

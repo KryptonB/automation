@@ -87,13 +87,13 @@ delegatedCountForUser = {}
 artologikURL = 'https://fss.virtusa.com'
 
 # Credential file
-credentialFile = 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\config\\credentials.json'
+credentialFile = '.\\config\\credentials.json'
 
 # Chrome driver path
-chromeDriverPath = 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\drivers\\chromedriver.exe'
+chromeDriverPath = '.\\drivers\\chromedriver.exe'
 
 # Name of the report that will be generated
-reportName = 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\reports\\Delegated_Ticket_List_' + datestamp + '.xlsx'
+reportName = '.\\reports\\Delegated_Ticket_List_' + datestamp + '.xlsx'
 
 
 # Default log level. Only messages in and above this level will be printed
@@ -101,7 +101,7 @@ reportName = 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\reports
 logLevel = logging.INFO
 
 # Log file path and name
-logFile = 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\logs\\ticket_report_' + datestamp + '.log'
+logFile = '.\\logs\\ticket_report_' + datestamp + '.log'
 
 # Log configurations
 logFormat = '[%(asctime)s] %(levelname)s (%(filename)s: %(lineno)d) %(message)s'
