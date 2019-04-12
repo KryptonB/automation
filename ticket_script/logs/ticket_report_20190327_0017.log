@@ -1,6 +1,0 @@
-[2019-03-27 00:17:04,171] ERROR (ticket_script.py: 97) [Errno 2] No such file or directory: 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\config\\credentialsaa.json'
-Traceback (most recent call last):
-  File "C:\Users\sratnappuli\Desktop\delegated_tickets_script\ticket_script.py", line 92, in extract_credentials
-    with open(credentialFile,'r') as f:
-IOError: [Errno 2] No such file or directory: 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\config\\credentialsaa.json'
-[2019-03-27 00:17:04,173] INFO (ticket_script.py: 98) Terminating the program...
