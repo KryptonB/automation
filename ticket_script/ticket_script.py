@@ -108,6 +108,7 @@ configsFile = '.\\config\\configs.json'
 # Chrome driver path
 chromeDriverPath = '.\\drivers\\chromedriver.exe'
 
+
 # Name of the report that will be generated. Make sure that the 'reports' folder exists. 
 # If the 'reports' folder does not exist, you need to create it before running the script
 reportName = '.\\reports\\Delegated_Ticket_List_' + datestamp + '.xlsx'
@@ -117,14 +118,15 @@ reportName = '.\\reports\\Delegated_Ticket_List_' + datestamp + '.xlsx'
 # Accepted levels are DEBUG, INFO, WARNING, ERROR, CRITICAL
 logLevel = logging.INFO
 
+
 # Log file path and name. Make sure that the 'logs' folder exists. 
 # If the 'logs' folder does not exist, you need to create it before running the script
 logFile = '.\\logs\\ticket_report_' + datestamp + '.log'
 
+
 # Log configurations
 logFormat = '[%(asctime)s] %(levelname)s (%(filename)s: %(lineno)d) %(message)s'
 logging.basicConfig(filename=logFile, level=logLevel, format=logFormat)
-
 
 
 # Specify which columns should have which widths.
@@ -162,7 +164,10 @@ wb.get_active_sheet().title = summarySheetName
 
 
 
-######  Function to extract configuration details for this script  ######
+
+#########################################################################
+#  Function to extract configuration details for this script
+#########################################################################
 def extract_configs(configsFile):
     global username
     global password
@@ -199,7 +204,10 @@ def extract_configs(configsFile):
 
 
 
-######  Function to extract the configuration details from environment variables  ######
+
+#########################################################################
+#  Function to extract configuration details from environment variables
+#########################################################################
 def extract_configs_using_env_variables():
     global username
     global password
@@ -217,9 +225,11 @@ def extract_configs_using_env_variables():
     mailServer = os.environ.get('MAIL_SERVER')
 
 
-    
-    
-###### Utility function to check file paths and folders  ######
+
+
+#########################################################################   
+#  Utility function to check file paths and folders
+#########################################################################
 def check_file_and_folder_paths(filePath):
 
     # Get the file name from the given path
@@ -243,10 +253,13 @@ def check_file_and_folder_paths(filePath):
     else:
         # Both file and folder exist. Therefore, no issue!
         return True
-        
+
+  
 
 
-######  Function to initiate browser  and start scraping ######
+#########################################################################
+#  Function to initiate browser  and start scraping
+#########################################################################
 def initiate_scraping(url, username, password):
     global browser
     global ticketList
@@ -415,10 +428,13 @@ def initiate_scraping(url, username, password):
         logging.info('Terminating the program...')
         browser.quit()
         sys.exit()
-   
 
-   
-######  Function for creating the excel report  ######
+
+
+
+#########################################################################   
+#  Function for creating the excel report
+#########################################################################
 def write_report(ticketStatus, ticketRows):
 
     # Create a new sheet for each ticket status
@@ -529,7 +545,7 @@ def write_report(ticketStatus, ticketRows):
         usr = cols[7].text
         usr2 = usr.split('\n')
         sheet['G' + str(startingRow)] = usr2[1]
-        # Use below code to if you want to slice the column and remove the 'Delegated' keyword
+        # Use below code if you want to slice the column and remove the 'Delegated' keyword
         #sheet['G' + str(startingRow)] = cols[7].text[9:]
         
         if(ticketStatus == 'Pending'):
@@ -555,8 +571,11 @@ def write_report(ticketStatus, ticketRows):
     logging.info('Data writing completed for ' + ticketStatus + ' tickets')
 
 
-    
+
+
+#########################################################################    
 # Function to create the SUMMARY sheet of the report
+#########################################################################
 def create_summary_sheet(workbook, sheetName):
 
     # Switch to the SUMMARY sheet
@@ -692,13 +711,16 @@ def create_summary_sheet(workbook, sheetName):
         sheet['J' + str(reopenedCountStartingRow)] = 'No data'
 
 
-        
-###### Function to send the email with report attachment  ######
+
+
+#########################################################################  
+#  Function to send the email with report attachment
+#########################################################################
 def send_report_email(reportName):
 
     # Specify From and To addresses
-    fromAddress = 'tickets-report@virtusa.com'
-    recipients = ['sratnappuli@virtusa.com', 'sratnappuli@virtusa.com']
+    fromAddress = 'tickets-report@amazing.com'
+    recipients = ['bgates@amazing.com', 'sjobs@amazing.com']
     
     # Instantiate MIMEMultipart obj
     msg = MIMEMultipart() 
@@ -752,13 +774,18 @@ def send_report_email(reportName):
     # Terminate the session 
     session.quit()
 
+
  
 
-# Function to get the ticket count in each status
+#########################################################################
+#  Function to get the ticket count in each status
+#########################################################################
 def get_ticket_count(ticketCountDict):
     for k, v in ticketCountDict.items():
         print(k + ' - ' + str(v) + ' tickets')
         logging.info(k + ' - ' + str(v) + ' tickets')
+
+
 
 
 # If you are extracting config details using the json file, you need to call the below function.
@@ -773,12 +800,16 @@ initiate_scraping(artoURL, username, password)
 
 time.sleep(shortPause)
 
-# Check if there are any tickets. If yes, then email the report
+# Check if there are any tickets. If yes, then write the counts to the console and log
+# and email the report
 if ticketList:
     print('There are total ' + str(totalTicketCount) + ' tickets in the report')
     logging.info('There are total ' + str(totalTicketCount) + ' tickets in the report')
-    #send_report_email(reportName)
     
+    # Attach the report and email it. 
+    # Comment this line if you don't want to send an email report
+    #send_report_email(reportName)
+ 
 else:
     # If you come to this block, it means no tickets to write
     print('There are no tickets. Therefore, no report will be created!')
@@ -790,4 +821,5 @@ browser.quit()
 print('There are ' + str(totalTicketCount) + ' tickets in the report')
 logging.info('There are ' + str(totalTicketCount) + ' tickets in the report')
 
+# Find the ticket counts and write it to the console and log
 get_ticket_count(ticketCounts)
