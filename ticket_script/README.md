@@ -11,9 +11,9 @@ the generated reports
 ```
 pip install -r requirements.txt
 ```
-* Change the python executable path to point to your python installation folder in [ticket_scraper.bat](ticket_scraper.bat) file
+* Change the python executable path to point to your python installation folder in [ticket_script.bat](ticket_script.bat) file
 * Set your credentials for website and mail server details in the [configs.json](config/configs.json) file and access them via _extract_configs(configsFile)_ function or put them in
-environment variables and access them via _extract_configs_using_env_variables()_ function inside [ticket_scraper.py](ticket_scraper.py) script
+environment variables and access them via _extract_configs_using_env_variables()_ function inside [ticket_script.py](ticket_script.py) script
 
 ### Requirements
 * Python 2.7 (works with python 3.4 also)
@@ -22,7 +22,7 @@ environment variables and access them via _extract_configs_using_env_variables()
 * Internet connection with a reasonable speed
 
 ## Usage
-* Double click [ticket_scraper.bat](ticket_scraper.bat) file and let it run. (It will take around 4 to 5 minutes to complete)
+* Double click [ticket_script.bat](ticket_script.bat) file and let it run. (It will take around 4 to 5 minutes to complete)
 * Optionally you can use [PyInstaller](https://www.pyinstaller.org/) to create a standalone executable (.exe file) and run it
 
 ## Built With
