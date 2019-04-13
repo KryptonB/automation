@@ -57,30 +57,39 @@ timestamp = now.strftime('%Y%m%d%H%M%S')
 # Global browser object
 browser = ''
 
+
 # Credentials for your ticketing website
 username = ''
 password = ''
 
-# URL of your ticketing tool
+
+# URL of your ticketing website
 artoURL = ''
+
 
 # Mail server host
 mailServer = ''
 
+
 # List to hold the delegated tickets
 ticketList = []
+
 
 # Ticket statuses to be included in the report
 ticketStatuses = ['Delegated', 'Reopened', 'Pending', 'Opened']
 
+
 # Ticket status colors - 87CEFA (blue), FFC0CB (pink)
 statusColors = {'Delegated': 'FFDAB9', 'Reopened': 'AFEEEE', 'Pending': '98FB98', 'Opened': '87CEFA' }
+
 
 # Ticket counts for each status. This will hold how many tickets in each status
 ticketCounts = {}
 
+
 # Total ticket count in the report
 totalTicketCount = 0 #len(ticketList)
+
 
 # User-wise ticket counts for each ticket status
 openedCountForUser = {}
@@ -89,14 +98,12 @@ reopenedCountForUser = {}
 delegatedCountForUser = {}
 
 
-
-
-
 # Configurations file. This file holds all your personal configuration details
 # such as website url, username, password, mail server host/ip
 # If you don't like to keep them all in one file, you can create environment variables 
 # for each config value and access them using the extract_configs_using_env_variables() function
 configsFile = '.\\config\\configs.json'
+
 
 # Chrome driver path
 chromeDriverPath = '.\\drivers\\chromedriver.exe'
@@ -119,6 +126,7 @@ logFormat = '[%(asctime)s] %(levelname)s (%(filename)s: %(lineno)d) %(message)s'
 logging.basicConfig(filename=logFile, level=logLevel, format=logFormat)
 
 
+
 # Specify which columns should have which widths.
 # Actual widths will be assigned later in the code
 OBJECT_COLUMN = 'B'
@@ -130,18 +138,23 @@ MEDIUM_WIDTH_COLUMNS = ['C']
 SMALL_WIDTH_COLUMNS = ['A', 'F']
 LARGE_WIDTH_COLUMNS = ['D', 'E']
 
+
 # Cells for report headings
 TITLE_CELLS = ['A1', 'B1', 'C1', 'D1', 'E1', 'F1', 'G1']
 
+
 # Format (bold) for report heading cells
 TITLE_FONT = Font(bold=True)
+
 
 # Styles for border of the tables in the 'SUMMARY' tab
 thinBorder = Side(border_style='thin', color='000000')
 OUTLINE_BORDER = Border(top=thinBorder, left=thinBorder, right=thinBorder, bottom=thinBorder)
 
+
 # Create a new Excel workbook
 wb = openpyxl.Workbook()
+
 
 # Name for the summary sheet
 summarySheetName = 'SUMMARY'
@@ -149,7 +162,7 @@ wb.get_active_sheet().title = summarySheetName
 
 
 
-# Function to extract configuration details for this script
+######  Function to extract configuration details for this script  ######
 def extract_configs(configsFile):
     global username
     global password
@@ -171,22 +184,22 @@ def extract_configs(configsFile):
         logging.info('Mail server host details extracted successfully')
             
     except IOError as e:
-        # There is an error in the file path / folder
+        # Do this if there is an error in the file path / folder
         print('File not found!\n' + str(e))
         logging.error(e, exc_info=True)
         logging.info('Terminating the program...')
         sys.exit()
         
     except Exception as e:
-        # There is some other error
+        # Do this if there is some other error
         print('Error in file!\n' + str(e))
         logging.error(e, exc_info=True)
         logging.info('Terminating the program...')
         sys.exit()
-    
-    
 
-# Function to extract the configuration details from environment variables    
+
+
+######  Function to extract the configuration details from environment variables  ######
 def extract_configs_using_env_variables():
     global username
     global password
