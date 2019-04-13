@@ -1,0 +1,12 @@
+{
+  "user": {
+    "name": "<your username for website>",
+    "password": "<your password for website>"
+  },
+  "website": {
+    "url": "<URL of the website you want to scrape>"
+  },
+  "mailServer": {
+    "host": "<IP address of hostname of your mail server>"
+  }
+}
