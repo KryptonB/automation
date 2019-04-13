@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 * Change the python executable path to point to your python installation folder in [ticket_scraper.bat](ticket_scraper.bat) file
 * Set your credentials for website and mail server details in the [configs.json](config/configs.json) file and access them via _extract_configs(configsFile)_ function or put them in
-environment variables and access them via _extract_configs_using_env_variables()_ function inside **_ticket_scraper.py_** script
+environment variables and access them via _extract_configs_using_env_variables()_ function inside [ticket_scraper.py](ticket_scraper.py) script
 
 ### Requirements
 * Python 2.7 (works with python 3.4 also)
