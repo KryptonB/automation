@@ -11,7 +11,7 @@ create an excel report and email it to specified users.
 pip install -r requirements.txt
 ```
 * Change the python executable path to point to your python installation folder in **_ticket_scraper.bat_** file
-* Set your credentials for website and mail server details in the **_config**\configs.json_ file and access them via _extract_configs(configsFile)_ function or put them in
+* Set your credentials for website and mail server details in the [configs.json](config/configs.json) file and access them via _extract_configs(configsFile)_ function or put them in
 environment variables and access them via _extract_configs_using_env_variables()_ function inside **_ticket_scraper.py_** script
 
 ### Requirements
