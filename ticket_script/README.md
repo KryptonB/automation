@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## License
 This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) license.
 
-## Acknowledgements
+## Acknowledgments
 * Many similar apps on the internet
 
 ## TODO
