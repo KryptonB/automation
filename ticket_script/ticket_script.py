@@ -1,13 +1,13 @@
 #########################################################################
 #
-# This script will log into Artologik and scrape details of 
+# This script will log into ticketing website and scrape details of 
 # delegated tickets and writes them to a report and sends it out
 # to the specified recipients. 
 #
-#    Can extract delegated ticket details from Artologik    
+#    Can extract delegated ticket details from ticketing website    
 #    Creates an excel report with ticket details
 #    Sends a mail with the report attached
-#    Can be scheduled to run so that it monitors inbox throughout
+#    Can be scheduled to run so that it monitors Inbox throughout
 #    Can be customized to extract Opened / Pending / Reopened tickets
 #    
 # Developed by FSS Team
@@ -57,9 +57,15 @@ timestamp = now.strftime('%Y%m%d%H%M%S')
 # Global browser object
 browser = ''
 
-# Credentials for Artologik ticketing website
+# Credentials for your ticketing website
 username = ''
 password = ''
+
+# URL of your ticketing tool
+artoURL = ''
+
+# Mail server host
+mailServer = ''
 
 # List to hold the delegated tickets
 ticketList = []
@@ -83,24 +89,29 @@ reopenedCountForUser = {}
 delegatedCountForUser = {}
 
 
-# Artologik website URL
-artologikURL = 'https://fss.virtusa.com'
 
-# Credential file
-credentialFile = '.\\config\\credentials.json'
+
+
+# Configurations file. This file holds all your personal configuration details
+# such as website url, username, password, mail server host/ip
+# If you don't like to keep them all in one file, you can create environment variables 
+# for each config value and access them using the extract_configs_using_env_variables() function
+configsFile = '.\\config\\configs.json'
 
 # Chrome driver path
 chromeDriverPath = '.\\drivers\\chromedriver.exe'
 
-# Name of the report that will be generated
+# Name of the report that will be generated. Make sure that the 'reports' folder exists. 
+# If the 'reports' folder does not exist, you need to create it before running the script
 reportName = '.\\reports\\Delegated_Ticket_List_' + datestamp + '.xlsx'
 
 
-# Default log level. Only messages in and above this level will be printed
+# Default log level. Only messages in and above this level will be printed to the log
 # Accepted levels are DEBUG, INFO, WARNING, ERROR, CRITICAL
 logLevel = logging.INFO
 
-# Log file path and name
+# Log file path and name. Make sure that the 'logs' folder exists. 
+# If the 'logs' folder does not exist, you need to create it before running the script
 logFile = '.\\logs\\ticket_report_' + datestamp + '.log'
 
 # Log configurations
@@ -125,7 +136,7 @@ TITLE_CELLS = ['A1', 'B1', 'C1', 'D1', 'E1', 'F1', 'G1']
 # Format (bold) for report heading cells
 TITLE_FONT = Font(bold=True)
 
-# Styles for border
+# Styles for border of the tables in the 'SUMMARY' tab
 thinBorder = Side(border_style='thin', color='000000')
 OUTLINE_BORDER = Border(top=thinBorder, left=thinBorder, right=thinBorder, bottom=thinBorder)
 
@@ -138,14 +149,26 @@ wb.get_active_sheet().title = summarySheetName
 
 
 
-# Function to extract credentials for login to Artologik
-def extract_credentials(credentialFile):
+# Function to extract configuration details for this script
+def extract_configs(configsFile):
     global username
     global password
+    global artoURL
+    global mailServer
     
     try:
-        with open(credentialFile,'r') as f:
+        with open(configsFile,'r') as f:
             config = json.load(f)
+            
+        username = config['user']['name']
+        password = config['user']['password']
+        logging.info('Username / Password extracted successfully')
+        
+        artoURL = config['website']['url']
+        logging.info('Ticketing tool URL extracted successfully')
+        
+        mailServer = config['mailServer']['host']
+        logging.info('Mail server host details extracted successfully')
             
     except IOError as e:
         # There is an error in the file path / folder
@@ -161,12 +184,28 @@ def extract_credentials(credentialFile):
         logging.info('Terminating the program...')
         sys.exit()
     
-    username = config['user']['name']
-    password = config['user']['password']
-    logging.info('Username / Password extracted successfully')
+    
+
+# Function to extract the configuration details from environment variables    
+def extract_configs_using_env_variables():
+    global username
+    global password
+    global artoURL
+    global mailServer
+    
+    # Get ticketing website URL from your environment variable
+    artoURL = os.environ.get('ARTO_URL')
+
+    # Get the ticketing tool website username and password from your environment variable
+    username = os.environ.get('ARTO_USERNAME')
+    password = os.environ.get('ARTO_PASSWORD')
+    
+    # Get mail server host from the environment variable
+    mailServer = os.environ.get('MAIL_SERVER')
 
 
-
+    
+    
 ###### Utility function to check file paths and folders  ######
 def check_file_and_folder_paths(filePath):
 
@@ -194,8 +233,8 @@ def check_file_and_folder_paths(filePath):
         
 
 
-######  Function to initiate browser  ######
-def initiate_artologik_login(url, username, password):
+######  Function to initiate browser  and start scraping ######
+def initiate_scraping(url, username, password):
     global browser
     global ticketList
     global totalTicketCount
@@ -208,11 +247,11 @@ def initiate_artologik_login(url, username, password):
             logging.info('Terminating the program...')
             sys.exit()
         else:
-            # Initiate a new browser instance and load the artologik website
+            # Initiate a new browser instance and load the ticketing website
             browser = webdriver.Chrome(chromeDriverPath)
             browser.get(url)
             logging.info('Chrome driver path: ' + chromeDriverPath)
-            logging.info('Artologik URL: ' + url)
+            logging.info('Website URL: ' + url)
         
     except WebDriverException as e:
         print('Selenium exception!\n' + str(e))
@@ -385,7 +424,7 @@ def write_report(ticketStatus, ticketRows):
     sheet.sheet_properties.tabColor = ticketStatusColor
     
     # Background color for report column cells
-    # Other colors: feedc6 (light orange) / FFA07A (darker orange) / F0E68C (light green) / FFDAB9 (light orange)
+    # Some more colors: feedc6 (light orange) / FFA07A (darker orange) / F0E68C (light green) / FFDAB9 (light orange)
     # If you want to remove the gradient, use fill_type='solid'. If you want a gradient, use fill_type=None
     BACKGROUND_FILL = PatternFill(start_color=ticketStatusColor, end_color=ticketStatusColor, fill_type='solid')
 
@@ -394,7 +433,7 @@ def write_report(ticketStatus, ticketRows):
         sheet[pos].font = TITLE_FONT
         sheet[pos].fill = BACKGROUND_FILL
 
-    # Center headings
+    # Center the headings
     for row_cells in sheet.iter_rows():
         for cell in row_cells:
             cell.alignment = Alignment(horizontal='center', vertical='center')
@@ -510,7 +549,7 @@ def create_summary_sheet(workbook, sheetName):
     # Switch to the SUMMARY sheet
     sheet = workbook.get_sheet_by_name(sheetName)
     
-    # Hide gridlines
+    # Hide grid lines
     sheet.sheet_view.showGridLines = False
 
     # Column names and cell names for headings
@@ -661,7 +700,7 @@ def send_report_email(reportName):
     msg['Subject'] = 'Tickets Report - As at ' + datestamp2
 
     # Text file that holds the content for the mail body
-    mailBodyContentFile = 'C:\\Users\\sratnappuli\\Desktop\\delegated_tickets_script\\config\\content.txt'
+    mailBodyContentFile = '.\\config\\content.txt'
 
     # Open and read the text file and store it as a string
     fp = open(mailBodyContentFile, 'rb')
@@ -689,7 +728,7 @@ def send_report_email(reportName):
     msg.attach(payload) 
       
     # Initiate SMTP session 
-    session = smtplib.SMTP('10.62.65.37')
+    session = smtplib.SMTP(mailServer)
       
     # Convert the Multipart msg into a string 
     text = msg.as_string() 
@@ -709,9 +748,15 @@ def get_ticket_count(ticketCountDict):
         logging.info(k + ' - ' + str(v) + ' tickets')
 
 
-        
-extract_credentials(credentialFile)
-initiate_artologik_login(artologikURL, username, password)
+# If you are extracting config details using the json file, you need to call the below function.
+# But if you are extracting config details via the environment variables, you need to 
+# comment below line and uncomment the call to extract_configs_using_env_variables()
+# I'm going with env variables method       
+#extract_configs(configsFile)
+extract_configs_using_env_variables()
+
+# Start the web scraping
+initiate_scraping(artoURL, username, password)
 
 time.sleep(shortPause)
 
