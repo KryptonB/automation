@@ -1,38 +1,38 @@
 # Ticket Details Extractor
 
 This is a scraper written in python 2.7 for extracting ticket details from a ticketing tool. It can obtain ticket details and 
-create a excel report from it and email it to specified users.
+create an excel report and email it to specified users.
 
 ## Installation
 * Clone the repo
-* Create "logs" and "reports" folders inside the root folder of the repo
-* Install the dependencies via [pip] (https://pypi.org/project/pip/)
+* Create *logs* and *reports* folders inside the root folder of the repo
+* Install dependencies via [pip](https://pypi.org/project/pip/) package manager
 ```
 pip install -r requirements.txt
 ```
+* Change the python executable path to point to your python installation folder in _ticket_scraper.bat_ file
 
 ### Requirements
-* OMDb API key ([Register for a key](http://www.omdbapi.com/apikey.aspx))
-* Google Chrome web browser (JavaScript enabled)
+* Python 2.7 or higher (works with python 3.4 also)
+* [Selenium web driver](https://sites.google.com/a/chromium.org/chromedriver/) for Google Chrome web browser (already included in "drivers" folder)
+* Required 3rd party modules are mentioned in the _requirements.txt_ file
 * Internet connection with a reasonable speed
 
 ## Usage
-* Enter movie/TV show title you want to look up and click Submit button
-* Click the Clear button to clear the textbox fields
+* Double click _ticket_scraper.bat_ file and let it run. (It will take around 4 to 5 minutes to complete)
+* Optionally you can use [PyInstaller](https://www.pyinstaller.org/) to create a standalone executable 
 
 ## Built With
-* [Python 2.7](https://en.wikipedia.org/wiki/HTML5) - Basic markup
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Basic styling
-* [Bootstrap 4.1.1](https://getbootstrap.com/) - Responsive framework
-* [jQuery 3.3.1](https://jquery.com/) - JS framework
+* [Python 2.7](https://www.python.org/download/releases/2.7/) - Scripting language
+* [Selenium](https://www.seleniumhq.org/) - Browser automation
+* [Open 4.1.1](https://openpyxl.readthedocs.io/en/stable/) - Excel reports
+* [Batch Script](https://en.wikipedia.org/wiki/Batch_file) - For scheduling via Windows Task Scheduler
 
 ## License
 This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Acknowledgements
-* Uses the [OMDb API](http://www.omdbapi.com/)
-* Inspired by Brad Traversy's GitHub finder
+* Many similar apps on the internet
 
 ## TODO
-* Add plot size option
-* Format ratings sections
+* Read the sender list for emails via a file
