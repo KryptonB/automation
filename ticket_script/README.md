@@ -1,7 +1,12 @@
 # Ticket Details Extractor
 
 This is a scraper written in python 2.7 for extracting ticket details from a ticketing tool. It can obtain ticket details and 
-create an excel report and email it to specified users. There is also a .bat file included in case you want to schedule it to run periodically throughout the day
+create an excel report and email it to specified users. There is also a .bat file included in case you want to schedule it to run periodically throughout the day.  
+  
+Screenshots:  
+![Summary tab](https://github.com/KryptonB/automation/blob/master/ticket_script/screenshots/summary.PNG)  
+![Ticket details tab](https://github.com/KryptonB/automation/blob/master/ticket_script/screenshots/data.PNG)  
+  
 
 ## Installation
 * Clone the repo
