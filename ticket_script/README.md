@@ -35,7 +35,7 @@ environment variables and access them via _extract_configs_using_env_variables()
 This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Acknowledgments
-* Many similar apps on the internet
+* Many similar apps on the Internet
 
 ## TODO
 * Read the sender list for emails via a file
