@@ -2,6 +2,6 @@ logs/
 reports/
 build/
 dist/
-ticket_script.ico
+icons/
 ticket_script.spec
 ticket_script.exe
