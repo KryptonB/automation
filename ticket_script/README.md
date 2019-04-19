@@ -41,9 +41,6 @@ environment variables and access them via _extract_configs_using_env_variables()
 * [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/) - For Excel reports
 * [Batch Script](https://en.wikipedia.org/wiki/Batch_file) - For scheduling via Windows Task Scheduler
 
-## License
-This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) license.
-
 ## Acknowledgments
 * Many similar apps on the Internet
 
