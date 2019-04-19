@@ -1,6 +1,6 @@
 # Ticket Details Extractor  
 
-![GitHub](https://img.shields.io/github/license/kryptonb/automation.svg)
+[![GitHub](https://img.shields.io/github/license/kryptonb/automation.svg)](https://choosealicense.com/licenses/mit/)
 
 This is a scraper written in python 2.7 for extracting ticket details from a ticketing tool. It can obtain ticket details and 
 create an excel report and email it to specified users. There is also a .bat file included in case you want to schedule it to run periodically throughout the day.  
