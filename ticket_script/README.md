@@ -25,7 +25,7 @@ pip install -r requirements.txt
 * Set your credentials for website and mail server details in the [configs.json](config/configs.json) file and access them via _extract_configs(configsFile)_ function or put them in
 environment variables and access them via _extract_configs_using_env_variables()_ function inside [ticket_script.py](ticket_script.py) script
 
-### Requirements
+## Requirements
 * Python 2.7 (works with python 3.4 also)
 * [Selenium web driver](https://sites.google.com/a/chromium.org/chromedriver/) for Google Chrome (already included in **drivers** folder)
 * Required 3rd party modules are mentioned in the [requirements.txt](requirements.txt) file
