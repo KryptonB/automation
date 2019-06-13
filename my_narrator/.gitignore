@@ -1,0 +1,6 @@
+logs/
+build/
+dist/
+icons/
+my_narrator.spec
+my_narrator.exe
