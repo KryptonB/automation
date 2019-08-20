@@ -1,0 +1,1 @@
+C:\Python27\python.exe mouse_mover.py %*

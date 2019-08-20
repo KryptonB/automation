@@ -147,7 +147,7 @@ def initiate_narrator(url, username, password):
         print('Selenium exception!\n' + str(e))
         logging.error(e, exc_info=True)
         logging.info('Terminating the program...')
-        #narrate_text(errorPhrase)
+        narrate_text(errorPhrase)
         sys.exit()
     
     time.sleep(shortPause)
@@ -286,7 +286,7 @@ def initiate_narrator(url, username, password):
         logging.error(e, exc_info=True)
         logging.info('Terminating the program...')
         browser.quit()
-        #narrate_text(errorPhrase)
+        narrate_text(errorPhrase)
         sys.exit()
         
     except UnexpectedAlertPresentException as e:
@@ -294,7 +294,7 @@ def initiate_narrator(url, username, password):
         logging.error(e, exc_info=True)
         logging.info('Terminating the program...')
         browser.quit()
-        #narrate_text(errorPhrase)
+        narrate_text(errorPhrase)
         sys.exit()
 
 
@@ -377,13 +377,9 @@ def check_file_and_folder_paths(filePath):
 #########################################################################
 def refresh_inbox(browser, topFrame, menuFrame, incomingEmailIconXpath, incomingTicketFrame, ticketRowsXpath):
 
-    try:
-        # Leave the incoming tickets iframe and come back to the default frame
-        browser.switch_to_default_content()
+    # Leave the incoming tickets iframe and come back to the default frame
+    browser.switch_to_default_content()
 
-    except:
-        narrate_text(errorPhrase)
-        
     # Find the top pane's iframe and switch to that iframe
     browser.switch_to_frame(topFrame)
     logging.info('Switched to top pane. now we are inside refresh_inbox method')
@@ -423,13 +419,8 @@ def new_mail_checker(ticketRowsXpath):
     global lastEmailReceivedTime
     global lastEmailReceivedTimeStr
 
-    
-    try:
-        # Check if there are any mails in the inbox and if so, put them in a list
-        ticketRowsNewer = browser.find_elements_by_xpath(ticketRowsXpath)
-    
-    except:
-        narrate_text(errorPhrase)
+    # Check if there are any mails in the inbox and if so, put them in a list
+    ticketRowsNewer = browser.find_elements_by_xpath(ticketRowsXpath)
     
     # Store the number of emails in the inbox
     foundCountNewer = len(ticketRowsNewer)
@@ -440,29 +431,26 @@ def new_mail_checker(ticketRowsXpath):
         lastEmailColumnsNewer = ticketRowsNewer[-1].find_elements_by_tag_name('td')
         lastEmailReceivedTimeNewerStr = lastEmailColumnsNewer[1].text
         lastEmailReceivedNewerTime = datetime.datetime.strptime(lastEmailReceivedTimeNewerStr, '%Y-%m-%d %H:%M')
-        
-        try:
-            # Check if the time of the last email in this new run is greater than the older last email time
-            if (lastEmailReceivedNewerTime > lastEmailReceivedTime):
-                # If we come here, that means this is a newer mail,
-                # So, from now on, this becomes our latest mail
-                # Therefore, set that time accordingly
-                lastEmailReceivedTime = lastEmailReceivedNewerTime
-                
-                # Extract the sender email address from the newer email
-                # 'Support <sas.surveillance@tradetechconsulting.com>' ==> 'sas.surveillance@tradetechconsulting.com'
-                senderEmailAddress = lastEmailColumnsNewer[2].text
-                if '<' in senderEmailAddress:
-                    senderEmailAddress = senderEmailAddress.split('<')[1].split('>')[0]
-                
-                # Extract the subject of the newer mail using the 6th <td> tag of the last email row
-                emailSubject = lastEmailColumnsNewer[5].text        
-                
-                # Tell the user that there is a new mail and it's details
-                narrate_text(newEmailPhrase)
-                narrate_text('Received time, ' + lastEmailReceivedTimeNewerStr + ', Sent by, ' + senderEmailAddress + ', Email subject, ' + emailSubject)
-        except:
-            narrate_text(errorPhrase)  
+               
+        # Check if the time of the last email in this new run is greater than the older last email time
+        if (lastEmailReceivedNewerTime > lastEmailReceivedTime):
+            # If we come here, that means this is a newer mail,
+            # So, from now on, this becomes our latest mail
+            # Therefore, set that time accordingly
+            lastEmailReceivedTime = lastEmailReceivedNewerTime
+            
+            # Extract the sender email address from the newer email
+            # 'Support <sas.surveillance@tradetechconsulting.com>' ==> 'sas.surveillance@tradetechconsulting.com'
+            senderEmailAddress = lastEmailColumnsNewer[2].text
+            senderEmailAddress = senderEmailAddress.split('<')[1].split('>')[0]
+            
+            # Extract the subject of the newer mail using the 6th <td> tag of the last email row
+            emailSubject = lastEmailColumnsNewer[5].text        
+            
+            # Tell the user that there is a new mail and it's details
+            narrate_text(newEmailPhrase)
+            narrate_text('Received time, ' + lastEmailReceivedTimeNewerStr + ', Sent by, ' + senderEmailAddress + ', Email subject, ' + emailSubject)
+            
 
 
 
