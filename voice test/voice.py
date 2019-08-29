@@ -22,9 +22,11 @@ engine.setProperty('rate',130)
 
 #engine.say('There is, 1, email in inbox' )
 
-engine.say('Oops! There was an error, in script. I am, terminating.' )
-engine.say('New, email received' )
-engine.say('Received time, ' + '2019-Dec-14 14:20 PM' )
+#engine.say('Oops! There was an error, in script. I am, terminating.' )
+#engine.say('New, email received' )
+#engine.say('Received time, ' + '2019-Dec-14 14:20 PM' )
+
+engine.say('Good Morning, Mihindhu' )
 # engine.say('There are, 9, emails in inbox')
 # engine.say('among them, you have...')
 # engine.say('1, volvo emails')
